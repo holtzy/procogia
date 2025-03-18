@@ -1,4 +1,4 @@
-import { Variable } from "../../data/data";
+import { AxisConfig } from "../../utils";
 import { polarToCartesian } from "./utils";
 import * as d3 from "d3";
 
@@ -8,14 +8,6 @@ import * as d3 from "d3";
 export const INNER_RADIUS = 40;
 const GRID_NUMBER = 5;
 const GRID_COLOR = "lightGrey";
-
-//
-// Types
-//
-export type AxisConfig = {
-  name: Variable;
-  max: number;
-};
 
 type RadarGridProps = {
   outerRadius: number;

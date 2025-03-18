@@ -1,42 +1,18 @@
 import "./App.css";
-import { dataBrianc } from "./data/data";
-import { Radar } from "./dataviz/radar-chart/RadarChart";
+import { DataScientistTypeSection } from "./sections/DataScientistTypeSection";
+import { IndividualSection } from "./sections/IndividualSection";
 
 function App() {
   const params = new URLSearchParams(window.location.search);
-  const name = params.get("name");
+  const selectedName = params.get("name");
 
-  if (!name) {
-    return (
-      <>
-        <a href="http://localhost:5173/procogia/?name=brianc">brianc</a>
-      </>
-    );
+  // OPTION 1: return a radar chart with 4 buttons to visualize the data scientist type
+  if (!selectedName) {
+    return <DataScientistTypeSection />;
   }
 
-  const data = name === "brianc" ? dataBrianc : undefined;
-
-  if (!data) {
-    return <p>Name not known</p>;
-  }
-
-  return (
-    <div>
-      <Radar
-        data={data}
-        width={700}
-        height={700}
-        axisConfig={[
-          { name: "speed", max: 10 },
-          { name: "acceleration", max: 10 },
-          { name: "conso", max: 10 },
-          { name: "safety", max: 2 },
-          { name: "style", max: 1000 },
-          { name: "price", max: 100 },
-        ]}
-      />
-    </div>
-  );
+  // OPTION 2: if there is a name, make a radar chart for this specific individual
+  return <IndividualSection name={selectedName} />;
 }
 
 export default App;
