@@ -1,0 +1,488 @@
+ Name,Manager,Department (drop down),Expertise (labels),Role Title (short text),Biography/Overview (text),Education (text),LinkedIn (url),GitHub (url),Your Website (url),Key Attribute (text),Project 1 (text),Project 2 (text),Project 3 (text),Project 4 (text),Assignee,Priority,Latest Comment,Points Estimate,Points Estimate Rolled Up,ARIMA (manual progress),AWS (Amazon Web Services) (manual progress),AWS (Amazon Web Services) for cloud computing and AI services (manual progress),AWS CloudFormation (manual progress),AWS Redshift (manual progress),Adobe Analytics (manual progress),Alteryx (manual progress),Ansible (manual progress),Apache Airflow (manual progress),Apache Flink (manual progress),Apache Kafka (manual progress),Apache NiFi (manual progress),Apache Spark (manual progress),Azure (manual progress),Azure AI and Machine Learning services (manual progress),Azure Blob storage (manual progress),Azure Data Explorer (ADX) (manual progress),Azure Data Factory (manual progress),Azure Data Lake (manual progress),Azure DevOps (manual progress),Azure Synapse Analytics (manual progress),BERT (manual progress),Bash (manual progress),Bioconductor (manual progress),Biostatistics (manual progress),CSS (manual progress),Cassandra (NoSQL) (manual progress),Celonis (manual progress),Chef (manual progress),CircleCI (manual progress),Collibra (manual progress),Cosmos DB (manual progress),CycleGAN (manual progress),DALL-E (manual progress),Databricks (manual progress),Dimensional Modeling (manual progress),Docker (manual progress),Domo (manual progress),"ELK Stack (Elasticsearch, Logstash, Kibana) (manual progress)",ER Modeling (manual progress),Excel (manual progress),GPT (manual progress),Git (manual progress),GitHub (manual progress),GitLab CI (manual progress),Google Analytics (manual progress),Google BigQuery (manual progress),Google Cloud AI and Machine Learning services (manual progress),Google Cloud Platforms (manual progress),Grafana (manual progress),HTML (manual progress),Hadoop (manual progress),Hugging Face Transformers (manual progress),IDEA (manual progress),Informatica (manual progress),Istio (manual progress),Java (manual progress),Javascript (manual progress),Jenkins (manual progress),Jupyter Notebooks (manual progress),KNIME (manual progress),Keras (manual progress),Kubernetes (manual progress),LightGBM (manual progress),Linkerd (manual progress),Looker (manual progress),"MLOps dashboards (mlflow, w&b) (manual progress)",Matplotlib (manual progress),MetaBase (manual progress),Microsoft Azure (manual progress),Modeling (manual progress),MongoDB (NoSQL) (manual progress),MySQL (manual progress),NLTK (manual progress),NumPy (Python) (manual progress),OpenCV (manual progress),OpenSearch (manual progress),Oracle Database (manual progress),Other Technology we did not identify and a rank of your skill from 0 to 100 (text),Pandas (manual progress),PostgreSQL (manual progress),PowerBI (manual progress),Prometheus (manual progress),Puppet (manual progress),PySpark (manual progress),PyTorch (manual progress),Python (manual progress),Qlik Sense (manual progress),QlikView (manual progress),Quarto/Markdown (manual progress),Quick Sight (manual progress),R Programming (manual progress),RapidMiner (manual progress),Redis (manual progress),SAS (manual progress),SQL (Structured Query Language) (manual progress),SQL Server (manual progress),Scala (manual progress),Seaborn (manual progress),Shell scripting (manual progress),Shiny (manual progress),Snowflake (manual progress),Spark (manual progress),Splunk (manual progress),Streamlit (manual progress),StyleGAN (manual progress),Tableau (manual progress),Talend (manual progress),TensorFlow (manual progress),TeraData (manual progress),Terraform (manual progress),ThoughtSpot (manual progress),VQ-VAE (manual progress),XGBoost (manual progress),Years of Experience (number),dbt (manual progress),dplyr (R) (manual progress),ganglia (manual progress),ggplot2 (manual progress),jQuery (manual progress),langchain (manual progress),numpy (manual progress),package development (manual progress),plotly (manual progress),plumber (manual progress),scikit-learn (manual progress),spaCy (manual progress),testthat (manual progress),tidyverse (manual progress)
+Bill Carney,Mehar Singh,Data Analytics,Data Analysis,CEO,"My career has been dedicated to not only achieving, but exceeding the ambitious growth goals set by the companies I’ve been fortunate enough to work with. Central to this success has been my adept use of cutting-edge marketing technologies and an unwavering commitment to pushing the boundaries of what’s possible in branding and market expansion.
+
+Technology at the Heart of Marketing Innovation:
+My journey has been characterized by an early and enthusiastic adoption of various marketing technologies. From sophisticated CRM systems that personalize customer interactions, to advanced analytics platforms that offer real-time insights into campaign performance, my approach has always been to leverage technology to its fullest. This includes automation tools that streamline workflows, AI-driven content creation tools that enhance engagement, and predictive analytics that inform strategy adjustments on the fly. These technologies have not only enabled more efficient operations but have also opened up new avenues for creativity and personalization, leading to more impactful marketing campaigns.
+
+Growth Through Content Leverage and Analytics:
+At the core of my strategy is a deep understanding of the power of content and analytics. By developing and implementing content leverage techniques, I’ve been able to maximize the value of every piece of content created, ensuring it resonates across diverse platforms and audiences. This approach has been instrumental in amplifying brand messages, driving engagement, and ultimately, increasing brand value and market share.
+
+A Career Focused on Continuous Growth and Innovation:
+My career has been a testament to the belief that growth is not just a target but a continuous journey. With each project, I strive to challenge the status quo, seeking innovative ways to improve and evolve. This relentless pursuit of growth has not only been beneficial for the businesses I’ve worked with but has also been a significant driving force for my professional development.
+
+As I look to the future, my goal remains to contribute to the marketing field by embracing new technologies, refining strategies, and sharing insights with peers and clients alike. Whether through leading groundbreaking campaigns, mentoring emerging marketing talents, or collaborating on transformative projects, I am always eager to connect with like-minded professionals who are passionate about making a meaningful impact.
+
+",BS - Northeastern University,https://www.linkedin.com/in/bcarney/,https://github.com/carneybill,https://www.carney.wiki,"Bill Carney, CEO, is profiled for his expertise in using advanced marketing technologies to exceed growth goals, focusing on CRM systems, analytics, and AI tools for branding and market expansion. His notable projects include sentiment analysis of R package names and NYC restaurant health mapping, which emphasize data-driven insights and community engagement.","Sentiment Analysis of R Package Names
+Project Overview:
+This project aims to analyze public sentiment towards various R package names by examining social media posts, blog comments, and forum discussions. The goal is to identify how the names of these packages are perceived within the community, potentially influencing future naming conventions or marketing strategies for R packages.
+
+Objectives:
+Data Collection: Gather textual data from multiple online sources where R users discuss package utility, issues, and experiences.
+Sentiment Analysis: Use natural language processing (NLP) techniques to determine the sentiment (positive, negative, neutral) associated with mentions of specific R package names.
+Insight Generation: Identify patterns and trends in sentiment that may influence how packages are received by the community.
+
+Methodology:
+Data Sources: Twitter, Stack Overflow, Reddit, and personal blogs where R is discussed.
+Tools and Technologies:
+R: To perform data scraping and sentiment analysis, using packages like rtweet, tm, tidytext, and possibly a machine learning package such as caret for more advanced analysis.
+Sentiment Analysis Model: Utilize pre-trained models available through packages like syuzhet or sentimentr, or develop a custom model trained on a labeled dataset specific to the technical language of R users.
+
+Analysis Process:
+Preprocessing: Clean and preprocess the data to remove noise and irrelevant information.
+Sentiment Scoring: Assign sentiment scores to each mention of R package names.
+Aggregation: Aggregate scores to get an overall sentiment for each package name.
+
+Visualization and Reporting:
+Create visualizations (using ggplot2 or shiny for interactive dashboards) to display sentiment trends and insights.
+Compile a report discussing the implications of these sentiments on package adoption and community engagement.
+
+Expected Outcomes:
+Sentiment Insights: Detailed insights into which R package names are viewed positively or negatively by the community.
+Strategic Recommendations: Suggestions for R developers on naming future packages based on sentiment analysis to enhance positive reception and adoption.
+
+Community Engagement: Increased engagement from the R community through interactive dashboards and discussions of the findings.
+
+Challenges:
+Data Variety and Volume: Managing and processing large volumes of data from diverse sources.
+
+Accuracy: Ensuring the sentiment analysis accurately interprets the technical language used in R discussions, which might not conform to conventional sentiment models.
+
+Impact:
+The findings could provide valuable feedback to R package developers, helping them understand how the names of their packages might impact their adoption and use. Additionally, it could foster a deeper connection between developers and the user community by aligning package names more closely with user expectations and preferences.
+
+This project blends data science with community engagement, leveraging the power of sentiment analysis to bridge the gap between R package developers and users.","Project Title: NYC Restaurant Health and Location Mapping
+
+Project Overview:
+This project utilizes R to develop an interactive map that visualizes the locations and health inspection statuses of New York City restaurants. The objective is to provide an easy-to-use visual tool that highlights restaurant health grades across various neighborhoods, aiding potential diners, health inspectors, and business analysts in their assessments and decisions.
+
+Objectives:
+Interactive Mapping: Create an interactive map displaying restaurants’ locations coupled with their latest health inspection grades.
+
+Insightful Analysis: Extract insights about health inspection trends across different neighborhoods and correlate them with other socio-economic markers.
+
+Public Engagement: Increase public awareness and engagement regarding the health standards of local dining options.
+
+Methodology:
+Data Sources:
+NYC Open Data for health inspection results.
+Geolocation details for restaurants.
+
+Tools and Technologies:
+R: Primary tool for data cleaning, analysis, and visualization.
+
+R Packages:
+ggplot2 for creating static visualizations.
+leaflet for creating interactive maps directly in R.
+dplyr and tidyr for data manipulation.
+shiny to develop an interactive web application.
+
+Analysis Process:
+Data Collection and Cleaning:
+Use readr or data.table to load CSV or JSON files containing restaurant locations and health inspection data.
+Clean and preprocess the data using dplyr for consistency and completeness.
+
+Data Integration:
+Combine geolocation and inspection data using dplyr to create a unified dataset.
+
+Mapping and Visualization:
+Utilize leaflet to plot the geolocations of restaurants on an interactive map of NYC, using color coding or markers to represent different health grades.
+Incorporate additional layers or filters in the map for deeper analysis, like neighborhood boundaries or restaurant type.
+
+Interactive Web Application:
+Use shiny to develop a web-based application that allows users to interact with the data, filter by various parameters like neighborhood or health grade, and receive dynamic feedback from the map.
+
+Expected Outcomes:
+Interactive Map: A user-friendly map that visually represents restaurant health grades across NYC, accessible online.
+Analytical Insights: Reports generated from the data to identify patterns in health inspection outcomes, potentially influencing policy or operational changes.
+
+Increased Public Awareness: By making health inspection information visually accessible and easy to understand, the project aims to better inform the public and stakeholders, leading to more informed dining choices.
+
+Challenges:
+Data Accuracy and Completeness: Ensuring the data from public sources is accurate, up-to-date, and comprehensive.
+Performance: Managing large datasets and ensuring the interactive map and web application perform efficiently without significant delays.
+
+Impact:
+This project is designed to influence public dining choices positively, assist health inspectors in monitoring and enforcement tasks, and aid restaurant owners in understanding how they are perceived by the public in terms of health safety. By providing a clear visual tool, it can help elevate the overall health standards of the restaurant industry in NYC.",,,,,,,0,-25%,0%,0%,0%,0%,-25%,-25%,0%,0%,0%,0%,0%,-25%,0%,0%,-25%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,-25%,-25%,0%,0%,-25%,0%,0%,-25%,0%,0%,75%,0%,0%,0%,0%,75%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,-25%,-25%,0%,0%,0%,0%,-25%,0%,-25%,-25%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,,0%,-25%,25%,0%,0%,-25%,0%,-25%,-25%,-25%,0%,0%,25%,-25%,0%,-25%,-25%,0%,0%,-25%,-25%,25%,-25%,0%,-25%,-25%,0%,-25%,0%,0%,-25%,0%,-25%,0%,0%,18,-25%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Brian Carter,Jas Oberoi,Data Science,"Data Analysis, Data Science",Delivery Manager,"I'm a seasoned professional with a passion for all things data, having dedicated the majority of my career to its mastery. My journey led me through the realm of nonprofit cancer research, where I've proudly authored or coauthored over 60 peer-reviewed articles, contributing significantly to advancements in the field. Currently, I lead a dynamic team of consultants encompassing DevOps engineers, developers, and statisticians, fostering a collaborative environment that thrives on innovation. Our client base spans diverse industries including finance, nonprofit, government, and Pharma, allowing us to bring a wealth of experience to each partnership. With a team boasting a wide variety of backgrounds and expertise, we approach every client challenge with a multifaceted perspective, ensuring tailored and effective solutions.","Georgia State University, 2004:  BA Anthropology
+Georgia State University, 2006:  MA Anthropology
+Georgia Sate University, 2010: MPH Epidemiology and Biostatistics",http://www.linkedin.com/in/brian-carter-4000522b,https://github.com/buddha2490,http://www.procogia.com,"Brian Carter is a Delivery Manager with a strong background in data analysis and data science, leading a team of consultants across various industries. He has successfully led projects such as migrating SAS to R for a market research company, saving them $7 million annually, and implementing a Posit Workbench platform with R training for a hospital system.","SAS to R Migration
+
+Project Overview:
+
+A large market research company in North American relied exclusively on SAS for all their analytic needs.  SAS is an antiquated system and they were paying millions of dollars a year for an analytic platform that was no longer meeting their needs.  They wanted to migrate their data and analytics to Databricks and needed help translating the code.
+
+
+Methodology:
+
+We worked with a multidisciplinary team that IT support, database engineers, and a large team of R developers.  My team developed a system for preparing SAS programs for migration, testing the outputs, and deploying the code to Databricks using the sparklyr package.
+
+Results:
+
+In just over 18 months, my team was able to translate several hundred-thousand lines of SAS code subsequently deployed to Databricks.  The client has ended all SAS processes and is now saving $7m a year.
+
+","Posit Installation and R training.
+
+Project Overview
+
+Our client is a small hospital system in California.  They are too small to hire a dedicated team of data analysts, so many of their staff had tried using Rstudio to manage some patient data.  This ran into privacy and data quality issues and they needed help designing and using a modern analytic platform.
+
+Methodology:
+
+We recommended a Posit Workbench platform so they could collaborate within a modern server environment.  We configured Workbench on an AWS cloud account that is 100% managed by our consultants.  We also developed a bespoke 6-week R training course based on their unique data and processes which covered everything from basic data types, writing custom functions, and incoporating AI in our code development.
+
+Results:
+
+The client is able to manage their patient data within a secure modern analytic system.  They also have access to an example code base for exploring their data.  The R training program included slide decks, exercises and quizes, and recorded trainings that can be useful as new staff are onboarded to the system.",,,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,50%,0%,25%,25%,25%,0%,50%,0%,0%,50%,100%,75%,25%,0%,0%,0%,25%,0%,0%,0%,0%,50%,0%,0%,0%,0%,0%,100%,0%,100%,100%,0%,0%,25%,0%,25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,50%,0%,0%,0%,0%,0%,0%,0%,0%,0%,100%,100%,0%,0%,0%,25%,0%,0%,0%,,25%,25%,0%,0%,0%,0%,0%,25%,0%,0%,50%,0%,100%,0%,0%,100%,25%,25%,0%,0%,25%,100%,25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,100%,0%,100%,0%,0%,25%,100%,100%,25%,0%,0%,100%,100%
+Tom Harding,Ned Booker,Data Science,"Data Science, Machine Learning, Generative AI",Senior Data Science Consultant II,"Data Scientist with well rounded experience including machine learning, NLP, computer vision, statistical modelling and visualisation. Cloud certified with experience across multiple platforms.",University of Bristol MEng Mechanical Engineering,https://www.linkedin.com/in/twharding/,https://github.com/twharding,,"This task outlines the professional profile of **Tom Harding**, a Senior Data Science Consultant II, detailing his expertise in data science, machine learning, and generative AI. It highlights two major projects: optimizing HVAC systems using machine learning and developing a generative AI chatbot for a charitable foundation, emphasizing his role in delivering innovative solutions.","Client
+HVAC automation client
+Challenge:
+The client wanted to use machine learning to predict the performance of HVAC system components in order to reduce energy consumption and optimize system performance. Optimization of a whole building’s HVAC system based on model predictions has not been carried out before, to the best of our knowledge. The challenge was to build a robust machine learning solution that integrates with the client's wider Microsoft-based technology stack and can be retrained on new data as it becomes available to maintain performance.
+Methodology:
+To ensure reliability and in line with MLOps best practices, ProCogia built a microservice that comprises an automated data ingestion pipeline, training pipelines for advanced machine learning models and a monitoring system with appropriate performance metrics.
+To mitigate the risk of data drift and improve prediction accuracy, models are configured to be regularly retrained on new data as it becomes available.
+We developed advanced machine learning algorithms and enhanced their performance through feature engineering, drawing from diverse data.
+We implemented robust cross-validation specific to time-series models and used this to inform model selection based on historical data, further improving accuracy.
+Impact:
+ProCogia were able to deliver a production-grade microservice, ensuring reliable and accurate predictions with seamless integration with the client's existing software application.
+Our solution helped the client gain a competitive edge as the only provider of HVAC optimization with enhancement from predictive machine learning","Client
+Large Charitable Foundation
+Challenge:
+The client wanted to use generative AI to develop a chatbot that was able to offer guidance to patients with chronic disease to improve public health outcomes. The challenge was to build a capable, sensitive and ethical chatbot that could choose the best way to interact with users whilst prioritizing patient safety and responsible AI principles. 
+Methodology:
+To ensure an ethical and responsible solution that guards against offering potentially harmful advice to patients, ProCogia built a chatbot that was able to use context from medical guidance documents to ensure accuracy. We used a “red teaming” approach to identify vulnerabilities to misinformation, and acted on the findings to further enhance security.  
+We implemented advanced generative AI algorithms and enhanced their performance through prompt engineering and finetuning, drawing from diverse data and the use of state-of-the-art image analysis methods. 
+To ensure privacy, we deployed the chatbot to a secure infrastructure that encrypts all user data. 
+We built a scalable, production quality solution with containerization, CI/CD and a modular, extensible and well-documented codebase. A web-based frontend and a WhatsApp access channel were provided to allow as many patients as possible to access community health information. 
+Impact:
+ProCogia were able to deliver a production-grade chatbot, able to sensitively respond to different users depending on their assessed profile with seamless integration with the client's contextual data. 
+Our commitment to responsible AI principles and governance gave the client confidence that we could be trusted with handling sensitive patient data and develop a solution that prioritized safety. 
+We adopted best practices to build a scalable solution that is robust, sustainable and cost-effective. ",,,,,,,0,0%,100%,0%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,75%,0%,0%,0%,0%,0%,0%,0%,0%,75%,-25%,-25%,-25%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,100%,0%,0%,0%,0%,0%,0%,0%,50%,-25%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,100%,0%,0%,0%,0%,100%,100%,0%,0%,100%,-25%,0%,0%,100%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,75%,100%,0%,0%,75%,0%,-25%,0%,0%,-25%,100%,0%,0%,100%,0%,-25%,0%,25%,0%,0%,0%,75%,0%,100%,0%,0%,0%,0%,0%,,0%,-25%,0%,-25%,0%,0%,100%,100%,100%,-25%,100%,0%,-25%,-25%
+Ned Booker,Jas Oberoi,Data Science,"Machine Learning, Data Science, Data Analysis",Data Science Manager,"I am a Data Science Manager that helps consultants working on NLP, LMM/multi-modality, search engine ranker and MLOps projects. I also work on search engine projects. In the past I have also worked on NLP and computer vision projects leveraging deep learning and requiring good MLOps practice to ensure project success. I have a background in experimental physics with an associated interest in semiconductor physics and renewable energy.  I also like running, playing the trumpet, gardening and knitting.",PhD in Experimental Physics from the University of Cambridge,https://www.linkedin.com/in/ned-booker-b52b22a9/,https://github.com/epb378,https://www.linkedin.com/in/ned-booker-b52b22a9/,"Ned Booker is a Data Science Manager specializing in NLP, LMM/multi-modality, search engine ranking, and MLOps projects, with a background in experimental physics. He has worked on projects such as a search engine ranking algorithm, medical image segmentation, and R/C++ optimization for bioinformatics, showcasing his expertise in machine learning and data science.",Search Engine Ranking Algorithm - using popularity trends information to update search results. Resulted in optimized models being deployed in production and implemented data science best practices in model development and deployment.,Image segmentation and analysis - using medical image and EHR data to segment and analyse CT scans as well as trying to prognose to assist clinical trials. Resulted in a conference paper on a novel 3D deep learning algorithm and implemented a novel approach to assess project feasibility.,R/C++ optimization - liaised with SMEs in bioinformatics to optimize functions for a bioinformatics package. Carried out code profiling and dockerization of optimized solution.,,,,,,0,0%,75%,0%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,50%,-25%,-25%,-25%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,75%,0%,0%,0%,0%,0%,0%,0%,25%,50%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,75%,0%,0%,0%,0%,100%,100%,0%,0%,100%,25%,0%,0%,100%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,100%,100%,0%,0%,50%,0%,50%,0%,0%,-25%,75%,0%,0%,50%,0%,-25%,0%,75%,0%,0%,0%,-25%,0%,100%,0%,0%,0%,0%,0%,,0%,-25%,0%,-25%,0%,0%,100%,75%,-25%,-25%,100%,0%,-25%,-25%
+Lazaro Alvarez,Brian Carter,Data Engineering,"DevOps, Data Science",Solutions Engineer,"I am AWS Cloud Engineer with a Data Science background. My niche is GovCloud and FedRAMP where I have been working and building validated environments that are being used by hundreds of Data Scientist and Researchers to conduct analysis. My background as a Data Scientist gives me a unique perspective as I not only  understand how to conduct scientific computing, but how to properly architect an environment that can suupport data science it as a Cloud Engineer. I am a certified AWS Solutions Architect Associate, Developer Associate an Cloud Practitioner. 
+
+","University of Texas Rio Grande Valley 
+
+MS - Business Analytics
+
+BA - Economics",https://www.linkedin.com/in/lazaro-alvarez-552078145/,http://na.com,http://na.com,"Review and correct Lazaro Alvarez's profile, which has his biography but incorrect details from another person, Gabriel, due to a case study publication issue.","Validated Environments of Posit Suite in AWS GovCloud
+
+
+
+Developed Validated Environements in AWS GovCloud that include the Professional Posit Suite of products (Post Workbench, Connect, and Package Manager). These environmemnts are secure and live within a Virtual Private Cloud and incorporate multiple AWS Services such as a AWS Workspace, RDS ,Active Directory and a Private Certificate Manager. ","Developing data science linux images that are compliant with thh Security Technical Implementation Guide. These images can be leveraged to for use with Department of Defense, Payment Card Industry Data Security Standard (PCI DSS), HIPAA, FedRAMP, and NIST.",,,,,@Bill Carney  can you check this when you get a chance? for some reason Lazaro's profile has his bio but the rest is Gabriel.  https://procogia.com/author/lazaroa/  ,,0,0%,100%,0%,100%,0%,0%,0%,25%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,50%,0%,0%,0%,0%,0%,0%,0%,100%,0%,50%,0%,0%,0%,100%,0%,100%,0%,0%,0%,-25%,-25%,0%,0%,0%,0%,0%,-25%,0%,0%,50%,0%,0%,0%,50%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,"Linux/Bash 90
+
+R & Python 95
+
+R+Python Shiny 90
+
+R Package Manager/Development 90
+
+RHEL8 90
+
+Powershell 80 
+
+Windows Server 85 
+
+AWS ECS 80
+
+RStudio Admin 100
+
+MS Active Directory 90
+
+AWS Networking VPC 80
+
+AWS Content Delivery (ACM/CloudFront/ELB) 
+
+AWS S3  90
+
+AWS Lambda 90
+
+AWS Cloudtrail/Cloudwatch 90
+
+AWS IAM 90
+
+AWS Security (GuardDuty/Shield/Inspector/Macie/KMS) 80
+
+AWS Workspaces 90
+
+AWS Systems Manager (Fleet Manager/SSM Agent/Run Command) 90
+
+Data Science/Analytics - 70
+
+
+
+",0%,0%,0%,-25%,50%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,75%,0%,0%,0%,0%,0%,0%,100%,0%,0%,0%,,0%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Oisín Bates,Siddharth Maheshwari,Data Engineering,"Data Engineering, DevOps",Data Engineering Consultant,"I have lived and worked in Europe and North America, spanning multiple industries (eg. Telecom, Pharma, Biotech) and tech stacks (eg. Python, R, JavaScript, Hadoop, Kubernetes, AWS). My career has been shaped by a keen value in personal relationships, lifelong learning, and embracing every opportunity for growth. In recent years, this has brought me to lead consulting engagements and pursue multiple technical certifications.","Higher Diploma (Postgraduate) - Software Development
+M.A. History",http://linkedin.com/in/oisinbates,http://github.com/oisin-procogia,http://procogia.com,"Oisín Bates is a Data Engineering Consultant with experience in Europe and North America, managed by Siddharth Maheshwari, focusing on data engineering and DevOps across industries like Telecom and Pharma. Notable projects include data pipeline development for T-Mobile, platform administration for Kite Pharma, and software development for NanoString Technologies, utilizing technologies such as Python, R, AWS, and Kubernetes.","Data and platform engineering with T-Mobile’s Device Intelligence and Analytics (DIA) team. Building and maintaining critical data pipelines for 14+ Milliion Android devices. Driving multi-million dollar impact across multiple departments.
+","Data Platfom ownership and administration for Kite Pharma. 
+Owning Kite's Rstudio/Posit environment. Championing clean, reproducible code, and modern devops practices.",Containerization of RStudio/Posit products for MDRC (education/social-policy non-profit corporation). Increasing team output and efficiency through reproducible work environments.,"Software development for NanoString Technologies. Developing a modular, reusable codebase (R, JavaScript, CSS) for reporting breast cancer test results, providing significant gains in code maintainability and readability.
+",,,,,0,0%,75%,0%,0%,50%,0%,0%,0%,75%,25%,25%,50%,75%,0%,0%,0%,0%,0%,-25%,0%,-25%,0%,0%,0%,0%,0%,25%,0%,0%,0%,0%,0%,0%,0%,25%,75%,75%,0%,0%,75%,0%,0%,0%,0%,0%,0%,25%,0%,25%,0%,0%,50%,0%,0%,-25%,0%,50%,0%,50%,0%,0%,0%,75%,0%,0%,-25%,0%,0%,0%,25%,0%,75%,75%,0%,0%,0%,0%,75%,,0%,75%,50%,0%,0%,0%,0%,75%,0%,0%,0%,50%,75%,0%,75%,0%,0%,75%,0%,0%,0%,0%,75%,0%,0%,0%,0%,-25%,-25%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Shahed Anzarus Sabab,Ned Booker,Machine Learning,"Data Science, Machine Learning, Generative AI, Data Analysis, Data Engineering",Data Science Consultant 2,"I am a driven and self-motivated individual with a fervent dedication to expanding my knowledge and leveraging it to tackle challenges effectively. My professional background encompasses hands-on experience in various domains, including machine learning, natural language processing, computer vision, big data analytics, generative AI and data visualization. Fueled by my passion for problem-solving and my desire to make a positive impact on society, I have dedicated myself to finding innovative solutions that benefit our community.",MSc in Computer Science ,https://www.linkedin.com/in/shahed-anzarus-sabab/,https://github.com/ShahedSabab/,https://shahedsabab.github.io/shahed_portfolio/,"This task outlines the professional profile of Shahed Anzarus Sabab, a Data Science Consultant 2, managed by Ned Booker, highlighting his expertise in machine learning, data science, and AI technologies. It includes links to his LinkedIn, personal website, and GitHub, and describes two key projects: TutVis, a tutorial visualization system, and Eye Pointer, a computer navigation system for individuals with physical impairments.","Online text and video tutorials are among the most popular and heavily used resources for learning feature-rich software applications (e.g., Photoshop, Weka, AutoCAD, Fusion 360). However, when searching, users can find it difficult to assess whether a tutorial is designed for their level of expertise. TutVis, short for Tutorial Visualization, addresses this issue by offering an auto-generated system for browsing Photoshop tutorials. It provides users with essential information such as difficulty level (beginner/advanced), covered topics, duration, text complexity, and command usage ratio. This data is computed automatically using various supervised and unsupervised machine learning algorithms, incorporating natural language processing techniques.","Eye pointer is a system tailored for individuals with physical impairments, particularly those lacking functional hands resulting in challenges with regular computer usage. This multimodal system offers a range of functionalities, enabling users to navigate computers through head movements, use eye blinks for clicking, employ various head gestures for document reading, enjoy multimedia content and use voice commands to interact with the computer. The system is developed utilizing computer vision technologies.",,,,,,,0,0%,100%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,100%,0%,0%,0%,0%,0%,0%,0%,100%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,75%,0%,0%,0%,0%,0%,0%,100%,0%,0%,75%,0%,0%,0%,0%,0%,0%,0%,0%,0%,100%,0%,100%,0%,0%,75%,100%,0%,0%,0%,0%,0%,100%,0%,100%,0%,0%,,100%,0%,0%,0%,0%,0%,100%,100%,0%,0%,0%,0%,50%,0%,0%,0%,0%,0%,0%,100%,0%,0%,0%,100%,0%,0%,0%,0%,0%,100%,0%,0%,0%,0%,100%,,0%,50%,0%,0%,0%,100%,0%,0%,0%,0%,100%,100%,0%,0%
+Gabriel Brock,Ned Booker,Machine Learning,"Data Science, Data Analysis, Machine Learning, Generative AI, DevOps",R Developer,"Throughout my careerI have been able to deliver impactful results across diverse industries. My experience spans financial services, retail, and marketing consultancy, where I've tackled challenges in commercial decision-making, model risk management, and business process transformation.  My skillset encompass statistical modeling, machine learning, data analysis, and data visualization. I am proficient in industry-standard tools like R, Python, SAS, and SQL, and adept at leveraging cloud platforms like Google Cloud and AMazon Web Serives.",Bachelor's degree in Statistics,https://cl.linkedin.com/in/gabriel-martins-brock-377295138,https://github.com/gm-brock,https://cl.linkedin.com/in/gabriel-martins-brock-377295138,"Gabriel Brock is an R Developer with expertise in data science, machine learning, and cloud platforms, managed by Ned Booker. He has delivered impactful results in financial services, retail, and marketing consultancy, and is proficient in R, Python, SAS, and SQL. Gabriel's notable projects include transitioning from SAS to R and developing an HIV Chatbot.",SAS to R,HIV Chatbot,,,,,,,0,0%,75%,0%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,75%,-25%,-25%,50%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,100%,0%,0%,0%,0%,0%,0%,0%,100%,-25%,0%,0%,0%,0%,0%,50%,0%,0%,0%,-25%,0%,0%,0%,0%,-25%,50%,0%,0%,75%,-25%,0%,0%,75%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,25%,75%,0%,0%,75%,0%,100%,0%,0%,100%,100%,0%,0%,-25%,0%,50%,0%,50%,0%,0%,0%,25%,0%,25%,0%,0%,0%,0%,0%,,0%,100%,0%,100%,0%,0%,75%,75%,75%,75%,25%,0%,75%,100%
+Siavash,Brian Carter,Machine Learning,"Data Science, Data Analysis, Machine Learning, Generative AI, DevOps",,,,,,,,,,,,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,6,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Samuel Adams,Felix Exner,Data Engineering,"Data Analysis, DevOps",Project Manager,"A seasoned Project Manager & Scrum Master with over 3+ years of experience in successfully delivering projects on time, within budget and managing teams of varying sizes and complexity.
+Expertise in implementing Scrum practices and conducting agile ceremonies which results in streamlining project delivery and improved team collaboration. Certified Scrum Master with experience in managing cross-functional teams and stakeholders. Natural leader with excellent communication, interpersonal, and problem-solving skills.
+","Bachelor of Science, Aerospace, Aeronautical and Astronautical/Space Engineering - University of Texas at Austin
+
+McCombs Business Foundation Certificate - University of Texas at Austin
+
+Certified Associate in Project Management(CAPM) - Project Management Institute (PMI)
+
+Certified Scrum Master (CSM) - Scrum Alliance",https://www.linkedin.com/in/samuel-adams-66003b11b/,https://github.com/git-sadams/Main,https://www.linkedin.com/in/samuel-adams-66003b11b/,"This task outlines the professional profile of **Samuel Adams**, a Project Manager and Scrum Master with over 3 years of experience, focusing on his role in managing innovative projects like Chat with Your Data Assistant, Website Chatbot, and Xeeit. Samuel Adams is skilled in implementing Scrum practices, managing cross-functional teams, and has expertise in technologies such as Jira, Azure DevOps, and Adobe Illustrator.",Chat with Your Data Assistant - Working as a project manager and scrum master on the innovation team's Chat with Your Data AI Assistant currently being designed to interpret client common language requests into SQL queries in order to create data visualization and provide actionable insights from the client's data.,Website Chatbot - Working as a project manager and scrum master on the innovation team's Chatbot project currently being developed to create an intuitive and simple to implement chatbot that is customizable with various LLM and tailored to the client's website's specific context.,"Xeeit - Working as a project manager and scrum master on the innovation team's Xeeit product. The product is designed to use AI and LLM to analyze app data and reviews, generating tags and curating data into visualizations to create actionable insights for the user.",,,,,,0,0%,50%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,75%,0%,0%,0%,0%,0%,100%,0%,0%,0%,0%,0%,0%,0%,0%,-25%,-25%,0%,0%,0%,0%,0%,0%,50%,0%,-25%,0%,0%,0%,75%,0%,-25%,0%,0%,0%,25%,-25%,0%,0%,0%,0%,0%,-25%,0%,0%,25%,0%,0%,0%,50%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,"Jira - 90/100
+Azure Dev OPS(ADO) - 90/100
+Vercel - 60/100
+Adobe Illustrator - 90/100",0%,0%,0%,-25%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,0%,50%,0%,0%,0%,,0%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Momin Musab Umair,Siddharth Maheshwari,Data Engineering,"DevOps, Data Engineering",DevOps Lead,"Having 7+  years of experience as a Bigdata and Cloud Admin with excellent troubleshooting and management skills.
+havinfg great experience in managing and maintaining technology such as databricks, posit, linux, azure ,aws, gcp ,terraform.
+
+",Bachelor of Engineering ,https://www.linkedin.com/in/momin-musab-umair-4635aa18a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app,https://github.com/MominUmair?tab=repositories,https://github.com/MominUmair?tab=repositories,"This task outlines the professional profile of **Momin Musab Umair**, a DevOps Lead with over 7 years of experience in Big Data and Cloud Administration, managed by Shamkant Dunbray. It includes links to his [LinkedIn](https://www.linkedin.com/in/momin-musab-umair-4635aa18a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) and [GitHub](https://github.com/MominUmair?tab=repositories) profiles, and details his expertise in technologies such as Azure, AWS, and Terraform.",NEPC : Posit support and maintainance,CSVS : Posit support and maintainance,ECCB: Posit Product Installation and management,Heaven Hill : Posit support and msintainanace,,,,,0,0%,75%,100%,25%,0%,0%,0%,75%,0%,0%,0%,75%,0%,100%,0%,100%,0%,100%,100%,100%,0%,0%,0%,0%,0%,0%,0%,0%,25%,-25%,0%,0%,0%,0%,100%,0%,50%,0%,-25%,0%,0%,0%,100%,0%,100%,0%,0%,0%,75%,50%,0%,100%,0%,0%,0%,-25%,0%,0%,50%,0%,0%,0%,50%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,"Hadoop Administration - 90
+Posit Administration - 90
+Databricks Admin - 90
+Infoworks & Trifacta admin- 90
+Azure Hdinsight Admin- 90
+Linux Admin - 80
+",0%,0%,0%,25%,25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,25%,0%,0%,0%,0%,0%,0%,100%,0%,0%,0%,,0%,0%,75%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Anant sharma,Siddharth Maheshwari,Data Engineering,Data Engineering,Senior Data Architect," 10 years of experience as a ???????? ???????????? enthusiast (???????? ??????????????????, ???????????????? ????????????????????????, ???????? ????????????????) in Financial Services & Telecom sector  • ?????? ???????????????? ?????????????????? & ???????? ?????????????????? ?????????????????? along with ?????????? ???????? ???????????????????????? & various other ???????? ?????????????? & ???????????? certifications.  • Hands on experience with AWS services such as ??????, ????????, ??????, ????????????????, ????, ????????????, ????????????, ???????? ????????????????, ????????, ????????????????????, ?????? ??????????????, etc  • Worked as a ???????? ?????????????????? for implementing ???????? ???????? & Data warehouse in ?????????????????? & ????????????????  • Deployed ?????????????? ???????????????? models in production using AWS stack  • ???????????????? ?????????????????? in ???????? ???????? ??????, ???????????????????? ??????????????, Core Banking, Health Insurance, ???????????? ?????????? and Retail Banking  • Technical expertise in building ???????? ??????????????????, ???????????? ??????????????, ???????????? ??????????, FSLDM, SAS Suite, ????????????, ????????, ????????????, ????????????, ??????????????, ??????, ?????? ?????????????????? & ???????? ????????????????  • Wrote ???????????????? ???????????? on Data modeling & data migration using different methodologies  • Implemented end-to-end entire website for Indian Stock Market ?????????? ?????? ?????????????? ?????????????? (Link in the contact info)  • Created android app published on Google Play Store ?????????? ?????? ?????????????? ?????? (Link in contact info)",Bachelor of Technology ,https://ca.linkedin.com/in/anant-sharma-it-consultant,https://github.com/asharma2040,http://www.anantsharma.net/,"This task provides a comprehensive profile of Anant Sharma, a Senior Data Architect with extensive experience in data engineering and architecture, particularly in AWS and Snowflake, within the Financial Services and Telecom sectors.",T-Mobile,Royal bank of Scotland - with PwC,,,,,,,0,0%,75%,0%,0%,75%,0%,0%,0%,75%,0%,25%,50%,75%,0%,0%,0%,0%,25%,25%,0%,50%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,50%,75%,75%,0%,0%,75%,0%,0%,0%,0%,0%,0%,25%,0%,25%,0%,0%,50%,0%,0%,-25%,0%,25%,0%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,50%,0%,50%,75%,0%,0%,0%,0%,50%,,0%,75%,50%,0%,0%,0%,0%,75%,0%,0%,0%,50%,0%,0%,-25%,0%,0%,75%,25%,0%,0%,0%,75%,0%,0%,0%,0%,25%,-25%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Justin Lam,Ned Booker,Data Science,"Data Science, Data Analysis, Machine Learning",Data Scientist III,Data Scientist of 4 years with a background in Web Development,Bachelor of Science at University of British Columbia,http://linkedin.com/in/jmlam/,http://github.com,http://linkedin.com/in/jmlam/,"This task provides a detailed profile of **Justin Lam**, a Data Scientist III, managed by Abhishek Mehta, highlighting his expertise in data science, machine learning, and web development.",Modelling Predictions of Competitor Telecommunications Cell Sites,Churn Analysis of Home Internet Service,,,,,,,0,0%,75%,0%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,-25%,-25%,-25%,75%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,100%,0%,0%,0%,0%,0%,0%,0%,75%,100%,0%,0%,0%,0%,0%,50%,0%,0%,0%,50%,0%,0%,0%,0%,-25%,75%,0%,0%,50%,0%,0%,0%,100%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,25%,100%,0%,0%,-25%,0%,-25%,0%,0%,-25%,100%,0%,0%,75%,0%,-25%,0%,100%,0%,0%,0%,25%,0%,25%,0%,0%,0%,0%,0%,,0%,-25%,0%,-25%,0%,0%,100%,25%,-25%,-25%,75%,0%,-25%,-25%
+Sarbjit Sarkaria,Siddharth Maheshwari,Data Engineering,"Data Engineering, Data Science, Data Analysis, Machine Learning, Generative AI, DevOps",Consultant,NA,"B.Sc, Ph.D, P.Eng",http://linkedin.com,http://www/github.com,http://www.sarb.com,,NA,NA,,,,,,,0,0%,25%,0%,0%,-25%,0%,0%,0%,-25%,-25%,25%,-25%,100%,0%,0%,0%,0%,100%,100%,0%,100%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,100%,50%,50%,0%,0%,50%,0%,0%,0%,0%,0%,0%,-25%,0%,-25%,0%,0%,100%,0%,0%,-25%,0%,100%,0%,-25%,0%,0%,0%,50%,0%,0%,-25%,0%,0%,0%,100%,0%,50%,50%,0%,0%,0%,0%,25%,"VS Code 90
+Version control via Git 90
+OO Design 90
+Unit testing 80
+Terraform 75
+Documentation skills 90
+",0%,50%,50%,0%,0%,0%,0%,100%,0%,0%,0%,-25%,0%,0%,-25%,0%,0%,75%,75%,0%,0%,0%,50%,0%,0%,0%,0%,-25%,-25%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Priya Tanwar,Zilai Feng,Data Analytics,Data Analysis,Senior Data Analyst," 8 years of total IT experience in BFSI & telecom domain.
+• Overseeing a team to ensure seamless operations. Showing team lead qualities.
+• Data & dashboard migration from Teradata to Snowflake.
+• Developed and implemented best practices in dashboard development on PowerBI and Tableau.
+• Developed reporting backend using Snowflake procedures and tasks.
+• Worked on Git integration.
+• Demonstrated proficiency in creating and managing Jira capabilities, enhancing project management efficiency.
+• Maintained regular communication with clients. Depicting client facing skills.
+• Proficient in Python for data analytics.
+• Developed jobs on Azure Databricks.
+• Created documentation on Confluence.
+• Have prior experience in Data warehousing, Oracle, SQL Server, Hadoop and HiveQL.
+• Worked on in-house app using Microsoft Power Apps, SharePoint and Power Automate.
+
+
+Overall, my engineering practice includes analyzing the requirements, designing & developing solutions and ensuring quality while delivery. My goal is to grow as a person and as a professional, every day.","MBA in Information Technology
+BSc in Information Technology",https://www.linkedin.com/in/priya-tanwar-software-engg/,,http://www.priyatanwar.com,"Priya Tanwar is a Senior Data Analyst with 8 years of experience in IT, focusing on BFSI and telecom domains, and is skilled in data migration, dashboard development, and project management. She has led teams in migrating data from Teradata to Snowflake, developed dashboards on PowerBI and Tableau, and managed projects using Jira, demonstrating strong leadership and client communication skills. Priya's technical expertise includes Python, SQL, and Snowflake, and she has worked on projects involving data analysis, dashboard creation, and reporting solutions.","Project – Partner Products
+
+•	Served as a Senior Data Analyst, overseeing a team to ensure seamless operations.
+•	Proficient in creating and securing service accounts using CyberArk Vault, contributing to enhanced data security measures.
+•	Successfully implemented and migrated dashboard backend systems from Teradata to Snowflake, optimizing performance and scalability. Also, created migration architecture to handle the data migration seamlessly without impacting the production.
+•	Executed Git integration for streamlined version control and collaborative development.
+•	Demonstrated proficiency in creating and managing Jira capabilities, enhancing project management efficiency.
+•	Maintained regular communication with clients, providing updates to ensure alignment with team objectives.
+•	Skillfully managed work assignments and adeptly handled unforeseen challenges, showcasing effective work management and crisis resolution capabilities.
+•	Actively contributed to Snowflake optimization efforts, resulting in substantial time and cost savings for clients.
+","Project – Device Experience
+
+•	Functioned as a Data Analyst, delivering comprehensive data analysis and insights to stakeholders.
+•	Developed reporting dashboards on PowerBI, presenting crucial metrics for informed decision-making.
+•	Constructed robust data pipelines and ETL jobs for downstream applications, ensuring seamless reporting solutions.
+•	Proficiently created Python scripts for manipulation of large datasets, contributing to efficient data processing.
+•	Collaborated with stakeholders to identify trends and provide valuable insights for improved business decision-making.
+•	Conducted client-facing calls to enhance understanding of data and its behavioral patterns.
+
+","Project – Virtual Demand Center Analysis
+
+•	Performed requirement gathering for one of the biggest networking hardware companies.
+•	Developed customized and interactive dashboard using Filters, Actions, Drill Down etc. in Tableau.
+•	Used Python pandas for extracting, transforming, and loading of data.
+•	Build advanced chart and visualization such as Waterfall chart, Donut chart, Bullet Graphs.
+•	Used Trend Lines, Reference Lines and Statistical techniques to describe the data.
+•	Designed, developed, tested, and maintained Tableau functional reports based on user requirements.
+•	Ensured project were completed on time and within budget.
+","Project – Insurance Agent Performance Management
+				
+•	Worked in all phases of BW/BI full life cycles including analysis, design, development, testing, deployment, post-production support/maintenance and documentation.
+•	Produced attractive visuals/dashboards to convey the story inside the data.
+•	Representing data using the Area Chart, Line Chart, Geographic Maps, Stacked Bar Charts and Histogram.
+•	Restricted data for particular users using Row level security and User filters.
+•	Created many excel based Macros to automate many manual daily works which reduced manual efforts and increase quality, accuracy and productivity.
+•	Involved in creating database objects like tables, views, procedures, triggers, and functions using SQL to provide definition, structure and to maintain data efficiently.
+",,,,,0,-25%,0%,0%,0%,0%,75%,-25%,0%,0%,0%,0%,0%,50%,0%,0%,50%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,50%,-25%,0%,0%,100%,0%,0%,-25%,0%,0%,100%,0%,0%,0%,0%,50%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,100%,-25%,0%,0%,0%,0%,-25%,0%,50%,-25%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,"GIT, Jira, Project & Program Management, Confluence, Data warehousing, Oracle, SQL Server, Hadoop, HiveQL, Microsoft Power Apps, SharePoint and Power Automate.",0%,100%,100%,0%,0%,75%,0%,100%,-25%,50%,0%,0%,50%,-25%,0%,-25%,100%,0%,0%,-25%,75%,-25%,100%,0%,50%,75%,0%,100%,0%,0%,100%,0%,-25%,0%,0%,,-25%,0%,0%,0%,75%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Tom Recht,Ned Booker,Data Science,"Data Analysis, Data Science, Generative AI",Data Analytics Consultant III,Linguist and data scientist specializing in NLP. Many years' experience in university-level teaching (linguistics and classics).,"Ph.D. Linguistics, UC Berkeley 2015",https://www.linkedin.com/in/tom-recht-87648493/,,,"Tom Recht is a Data Analytics Consultant III specializing in NLP and data science, with a Ph.D. in Linguistics from UC Berkeley. He has developed a custom spell checker and search query clustering for Getty Images, utilizing advanced models and algorithms.","Custom spell checker (Getty Images): designed and coded a specialized spell checker for search queries tailor made to the client's needs, outperforming out-of-the-box options.","Search query clustering (Getty Images): used BERT transformer model, UMAP and HDBScan clustering algorithms to develop semantic clustering of search queries, grouping together queries that are similar in intent to enable more insightful analysis of performance of specific search domains.",,,,,,,0,0%,75%,0%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,25%,-25%,-25%,25%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,50%,0%,0%,0%,0%,0%,0%,0%,50%,-25%,0%,0%,0%,0%,0%,25%,0%,0%,0%,-25%,0%,0%,0%,0%,-25%,75%,0%,0%,-25%,25%,0%,0%,50%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,-25%,75%,0%,0%,-25%,0%,-25%,0%,0%,-25%,75%,0%,0%,-25%,0%,-25%,0%,50%,0%,0%,0%,-25%,0%,-25%,0%,0%,0%,0%,0%,,0%,-25%,0%,-25%,0%,0%,50%,-25%,50%,-25%,25%,0%,-25%,-25%
+Umair Bhatti,Siddharth Maheshwari,Data Engineering,"Data Engineering, Data Analysis, Machine Learning",Senior Data Engineer Consultant,"Umair Bhatti is a Data Warehouse and Business Intelligence professional with more than 14 years of experience in designing and delivering BI roadmap and strategies. Umair is expert in designing ETL architectures, implement BI Analytics solutions, KPI reporting and Dashboards for customer insights, optimizing data warehouse solutions, developing technical documentation and troubleshooting data quality issues. Unique talent for improving processes, upgrading product capability, optimizing ROIs, and achieving complete customer satisfaction.
+Highlights of Expertise:
+
+•	Data Engineering
+•	Big Data Analytics
+•	Data Architect
+•	BI Workload Optimization
+•	Technical Project Management	
+•	BI Cloud Solution Implementation
+•	BI Dashboards Development
+•	Data Quality Analysis
+•	Eliciting Business Requirements
+•	Change and Release Management
+
+Technical Proficiencies
+
+Cloud Analytics:	
+Microsoft Azure: 
+Azure Synapse, Azure Databricks, Azure Data Lake Storage (ADLS), Azure Blob Storage, Azure Data Factory, Azure Data Warehouse, Event Hub, IOT Hub, Azure Analysis Services, Power BI
+Amazon Web Services: (AWS): 
+S3, Redshift, RDS, EMR, Dynamo DB, Kinesis
+Google Cloud: 
+Google Big Query, Cloud SQL (MySQL and PostgreSQL) 
+
+Languages:	SQL, Python, PowerShell 
+
+Databases:
+Reporting Tools:
+Other Tools:    	Teradata, Azure SQL Data Warehouse, RedShift, DB2, Netezza
+Tableau, Business Objects, Cognos, Qlik Sense/Qlik View
+Data Modeling: Erwin, Power Designer, Serena Dimensions, 
+Scheduling: Control M
+Campaign Management Solution: IBM Unica, Interact, SIFT, Campaign Query
+
+
+",B.E Information and Communication Systems,https://www.linkedin.com/in/umairbhatti/,,,"This task outlines the professional profile of **Umair Bhatti**, a Senior Data Engineer Consultant with over 14 years of experience in data engineering, big data analytics, and business intelligence solutions. Umair is skilled in designing ETL architectures, implementing BI analytics solutions, and optimizing data warehouse solutions, with proficiency in tools like Azure, AWS, and Google Cloud. His notable projects include data platform migrations and analytics solutions using technologies such as Snowflake, Databricks, and Power BI, demonstrating his capability in managing complex data environments.","Data Platform SAS Migration into Azure –Databricks, Data Lake, Snowflake, Data Factory, Power BI, SAS
+
+Role: Analytics Consultant – Senior Data Engineer • Methodology: Agile • Team: 6 onshore
+•	Responsible for designing, building, and maintaining data pipelines and data warehouses in Snowflake.
+•	Integration of Databricks with Snowflake to move Raw Table to Transformed tables.
+•	Applying various data transformation techniques such as data cleaning, data normalization, and data aggregation. 
+•	Design and build data models within Snowflake that are optimized for querying and analysis. This includes designing tables, defining relationships between tables, and defining data types.
+•	Ensure that the data pipelines and data warehouses within Snowflake are optimized for performance. This involves identifying and resolving performance bottlenecks, such as slow queries, inefficient data models, or suboptimal data transformation techniques.
+•	Monitor the data pipelines and data warehouses for errors and performance issues.
+•	Documentation and collaboration with other teams such as data analysts, data scientists, and business stakeholders. This involves creating documentation such as data dictionaries, data flow diagrams, and data lineage diagrams, as well as communicating with stakeholders about data-related issues and opportunities.
+•	Designing Power BI-based solutions for both external and internal stakeholders
+","Role: Data Platform Migration into Azure – Snowflake, Databricks, DBT, Data Lake, Azure Synapse, Azure Data Factory, Tableau
+Role: Analytics Consultant – Financial Reporting • Methodology: Agile • Team: 4 onshore
+•	Responsible for maintaining and Operational support of the Azure platform including Snowflake, DBT, Azure Databricks and Tableau.
+•	Development of DBT Data Transformation and YAML scripts for Unit Testing.
+•	Development and Operational support of Data Ingestion, Bulk Load, Data Migration, and ETL pipelines in the Databricks framework.
+•	Data Discovery exercises to migrate data into Azure Databricks (Delta tables) for current, history, and invalid delta tables for Dashboards and Reporting.
+•	Designing Tableau-based solutions for both external and internal stakeholders
+","Role: IFDS Data Migration into AWS – DataStage, Redshift, Python, Tableau
+Role: Business Analytics – Individual Wealth Portfolio • Methodology: Agile • Team: 4 onshore
+•	Leading Development/Operations and Data Analytics of Individual Wealth Portfolio focusing on Segregated and Mutual Funds for Sun Life Financial Systems.
+•	Design and Development of Data Ingestion Pipeline into RedShift.
+•	IAM Roles/Policies and Row Level Security (RLS) for providing limited data exposure to clients.
+•	Ingested data from multiple data sources including Salesforce, DB2, SQL DWH including JSON, CSV, and Parquet file formats.
+•	Design and Development of Tableau Dashboards for Individual Wealth Operations Team for Segregated and Mutual Funds.
+•	Managed cross-functional teams consisting of developers, quality testing, rollout and managed services and ensured delivery of project with timelines. 
+","Enterprise Analytics Solution – POS of 500 Stores - Microsoft Azure, Power BI
+Role: Cloud Analytics Consultant • Methodology: Agile • Team: 4 onshore and 10 offshore
+•	Led Home Hardware ETL/Data Analytics Team in designing and developing of POS500 Enterprise Analytics Solution using Microsoft Azure Cloud Platform.
+•	Responsible for ETL Implementation, Data Governance, and Master data management module of POS migration project.
+•	Extract, Transform and Load requirements across business units using Azure Data Pipeline and SSIS.
+•	Extracting data from a source system using tools and technologies such as SQL queries or data extraction APIs
+•	Transforming the data into a format that is compatible with the target system, including applying rules and transformations to clean and standardize the data
+•	Loading the data into the target system, ensuring that it is properly mapped and aligned with the appropriate fields and tables
+•	Identifying and resolving any inconsistencies or errors in the data, including missing or duplicate records, invalid data types, and incorrect data values
+•	Organizing the data in a way that is easily accessible and understandable, including the use of naming conventions, labeling, and metadata
+•	Monitoring the data migration process to ensure that it is running smoothly and efficiently and adjusting as needed to optimize performance and quality.
+•	Developed and shared various reports through Power BI to ensure the progress of the project. 
+",,,,,0,0%,75%,0%,0%,75%,0%,0%,0%,75%,50%,50%,75%,50%,0%,0%,0%,0%,100%,100%,0%,100%,0%,0%,0%,0%,0%,75%,0%,0%,0%,0%,0%,0%,0%,100%,100%,50%,0%,0%,100%,0%,0%,0%,0%,0%,0%,75%,0%,75%,0%,0%,75%,0%,0%,75%,0%,50%,0%,75%,0%,0%,0%,25%,0%,0%,50%,0%,0%,0%,75%,0%,75%,75%,0%,0%,0%,0%,75%,"Cloud Analytics:	Microsoft Azure: ADLS, Blob Storage, Azure Data Factory, Event Hub, T-SQL, SQL Data Warehouse, Azure Analysis Services, Power BI
+Amazon Web Services: (AWS): S3, Redshift, EC2, Kinesis Data streams, Kinesis Firehose, EMR, Dynamo DB       
+Cloudera Hadoop: Hadoop, Map Reduce (MR), Hive, Impala
+Languages:	Unix, Linux, PowerShell, Python, 
+Systems:	Windows, Unix, Linux
+Databases/ETL:	Snowflake, Teradata, Oracle, SAS, Netezza, DB2, SQL Server; Oracle Data Integrator
+Tools:	Tableau, Cognos, SAP Business Objects, Power BI, QlikView, Qlik Sense, Zhilabs-CEA, Erwin Data Modeler, SAP PowerDesigner, MS Project, Serena Dimensions, Control M
+Campaign Management Solution: IBM Unica, Interact, SIFT, Silverpop, Campaign Query
+",0%,75%,75%,0%,0%,0%,0%,75%,0%,0%,0%,75%,75%,0%,75%,0%,0%,100%,75%,0%,0%,0%,75%,0%,0%,0%,0%,75%,75%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Lily Liu,Zilai Feng,Data Analytics,"Data Analysis, Data Science",Data analytics consultant,"Lily is a Data Analytics Consultant with ProCogia. She began her career journey as a Data Analyst at Provincial Health Service Authority (PHSA) before transitioning to the role of a Data Analytics Consultant at ProCogia. With four years of experience in the data analytics field, Lily has leveraged her expertise in modeling, business intelligence, and data engineering to help organizations improve their operational efficiency and product performance.","Master of Business Analytics, Sauder School of Business, UBC 
+BS in Accounting and Finance, Kelley School of Business, Indiana University  
+
+",https://ca.linkedin.com/in/ziyun-lily-liu,,,"Lily Liu is a Data Analytics Consultant at ProCogia with four years of experience in data analytics, specializing in modeling, business intelligence, and data engineering. She has worked on a project with T-Mobile's ACE team / Pi Team and holds a Master of Business Analytics from UBC and a BS in Accounting and Finance from Indiana University.",T-Mobile - ACE team / Pi Team,NA,,,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Sai Sunhith Gaddam,Siddharth Maheshwari,Data Engineering,"Data Engineering, Data Analysis, DevOps",Data Engineering Consultant II,"Around 5 years of IT Experience with exposure to both on-premises and Cloud BI & Data Technologies. Hands-on experience working in complex data warehouse implementations using Azure SQL Data warehouse/Synapse, Azure Data Factory, and Azure SQL Database.",Bachelors in Computer Science,http://www.linkedin.com/in/sai-g-b04143258,,,"Sai Sunhith Gaddam is a Data Engineering Consultant II with around 5 years of IT experience, specializing in data engineering and analysis, particularly using Azure technologies. He is involved in building and revamping ETL pipelines, including a client-facing project to address frequent pipeline failures and inconsistent data.","Building out a robust end-to-end ETL pipeline using Azure Data Factory, Azure Databricks due to frequent pipeline failures and inconsistent data.(Client-facing project)",Revamp the pipeline setup for retreving the Greenhouse data(ProCogia's HR data),,,,,,,0,0%,-25%,0%,0%,-25%,0%,0%,0%,-25%,-25%,-25%,-25%,75%,0%,0%,0%,0%,100%,100%,0%,100%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,75%,-25%,-25%,0%,0%,-25%,0%,0%,0%,0%,0%,0%,-25%,0%,-25%,0%,0%,-25%,0%,0%,-25%,0%,-25%,0%,-25%,0%,0%,0%,-25%,0%,0%,-25%,0%,0%,0%,100%,0%,-25%,75%,0%,0%,0%,0%,-25%,,0%,50%,50%,0%,0%,0%,0%,50%,0%,0%,0%,-25%,-25%,0%,-25%,0%,0%,50%,-25%,0%,0%,0%,-25%,0%,0%,0%,0%,-25%,-25%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Jens Sommerfeld,Zilai Feng,Data Analytics,Data Analysis,Sr. Data Analyst II,More than 10 years as an Analyst. 5 years as Sr. Quality Analyst at a small Startup. 7 years as  Business Analyst at Amazon. ,Business Degree from Germany,http://www.linkedin.com/in/jens-sommerfeld-003b8b2b,,,,T-Mobile ,Western Forest Products,,,,,,,0,-25%,0%,0%,0%,0%,50%,-25%,0%,0%,0%,0%,0%,25%,0%,0%,25%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,-25%,25%,0%,0%,25%,0%,0%,-25%,0%,0%,100%,0%,0%,0%,0%,50%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,25%,0%,0%,0%,0%,0%,-25%,0%,25%,-25%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,"KQL (85), Azure Data Factory (55), Crystal (60), SSRS (85)",0%,75%,50%,0%,0%,-25%,0%,25%,-25%,-25%,0%,0%,-25%,-25%,0%,-25%,100%,0%,0%,-25%,-25%,-25%,-25%,0%,-25%,-25%,0%,75%,0%,0%,-25%,0%,-25%,0%,0%,,-25%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Kinjal Madhu,Zilai Feng,Data Analytics,Data Analysis,Senior Data Analytics Consultant II,"I am a BI professional with over seven years of work experience. I enjoy helping organizations gain critical insights using the required data sources and influencing strategic business decisions. 
+
+I have experience working in Business Intelligence and Data Analytics roles for various sectors such as retail, ecommerce, telecom, etc. At my previous workplace, I had the chance to build the BI and Analytics set up from scratch and got an opportunity to lead a team of BI Developers and Data Analysts. In my opinion, each exposure and opportunity helps us grow in our career and learn some important lessons.
+
+I have experience building analysis and dashboards for various departments like finance, operations, marketing, products, supply chain, and some more. Each stakeholder has different requirements and a unique vision on how they would like to visualize the data. I really enjoy this process of meeting with stakeholders and going through the entire process in a varied way each time!
+
+Outside of work, I enjoy exploring new places, learning about different cultures and their food, and cooking a variety of vegetarian dishes. ",Bachelor of Engineering from University of Mumbai,https://www.linkedin.com/in/kinjal-madhu-922ab555/,,,,Activation Capabilities and Experience - product team at T-Mobile,Canada Drives - online retailer for buying and selling cars,,,,,,,0,-25%,0%,0%,0%,0%,50%,25%,0%,0%,0%,0%,0%,-25%,0%,0%,50%,25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,50%,-25%,0%,0%,75%,0%,0%,-25%,0%,0%,75%,0%,0%,0%,0%,100%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,75%,-25%,0%,0%,0%,0%,100%,0%,-25%,-25%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,,0%,50%,100%,0%,0%,50%,0%,75%,-25%,-25%,0%,0%,-25%,-25%,0%,-25%,100%,0%,0%,-25%,-25%,-25%,75%,0%,-25%,-25%,0%,50%,0%,0%,75%,0%,-25%,0%,0%,,-25%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Mehdi Nikkhah,Siddharth Maheshwari,Data Engineering,"Generative AI, Data Engineering, DevOps, Data Analysis",Senior Data Engineer,"As a Senior Data Solution Engineer at ProCogia, I apply my knowlwdgw and insights Master's Program in Big Data at Simon Fraser University (sencond Master degree) and over 15 years of experience to design and implement data-driven solutions for various industries. I have extensive knowledge and skills in Big Data tools and languages, such as Python, PySpark, Azure Data Factory, Azure Synapse, Azure Cognitive Services, Azure ML, Kafka, Cassandra, MLlib, and Spark Streaming.
+I also have a strong background in software development, database management, and cloud computing, using technologies such as C#, C++, SQL Server, Snowflake, ASP.NET, MVC, Restful API, and Git. I am passionate about discovering new algorithms, solving complex problems, and delivering high-quality products that meet the needs and expectations of the customers. I enjoy working with a talented and diverse team of data professionals at ProCogia, where we collaborate, innovate, and empower each other to achieve our goals.","1- Professional Master's Program in Big Data at Simon Fraser University. 
+2- Master of Software Engineering.
+3- Bachelore Of Software Enginnering",https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile,,,,Document and Project Management at NonoString project,"Build, Monitor, Maintain Io Team data platform using Azure ADF and Databricks to move and process Drive and Kidswatch data (streaming and batch processing)","Migrate Databeicks and Azure Datalake to Snowflake by Snowflake procedure, ADF and Snowflake tasks as the orchestrationtools, and Medalian Architecture to store data",Azure ADF DevOps using Azure DevOps and Bicep ro automate building and deploying the ADF data platform in both Development and Prodoction environment.,,,,,0,0%,50%,0%,0%,0%,0%,0%,0%,75%,50%,100%,0%,100%,0%,0%,0%,0%,100%,100%,0%,100%,0%,0%,0%,0%,0%,100%,0%,0%,0%,0%,0%,0%,0%,100%,100%,50%,0%,0%,100%,0%,0%,0%,0%,0%,0%,75%,0%,50%,0%,0%,100%,0%,0%,0%,0%,50%,0%,50%,0%,0%,0%,25%,0%,0%,-25%,0%,0%,0%,100%,0%,100%,50%,0%,0%,0%,0%,0%,,0%,100%,75%,0%,0%,0%,0%,100%,0%,0%,0%,-25%,-25%,0%,25%,0%,0%,100%,75%,0%,0%,0%,100%,0%,0%,0%,0%,50%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Carlos Gomez Hernandez,Siddharth Maheshwari,Data Science,"Data Engineering, Data Analysis, DevOps",Data Engineer,"I am a Spanish-Canadian analyst and developer with solid experience working with large scale datasets and reporting systems. My superior people skills, technical and business background has helped the teams I worked with to succeed in delivering various projects.
+
+During the course of my career, I have worked in various industries such as retail, telecommunications and real estate. At Visier Inc. I worked with the HR datasets of several fortune 500 companies, helping customers to onboard their data and find innovative solutions to their business problems.
+
+As of today I work at Procogia solving analytics problems for T-Mobile.","Economics Degree.
+Masters in Administrative Science.",https://ca.linkedin.com/in/carlos-g%C3%B3mez-hern%C3%A1ndez-09714b81,,,,"Client Facing Project , build an enterprise data silo for all data related with subscribers. The purpose of this project is to provide analysts with a single point of reference where they can retrieve the data they need, in a clean format. Data located in this enterprise database was retrieved from multiple API's","Client Facing Project: Automated customer inter department file transfer using a custom ETL build in python,",,,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Akshay Veeramaneni,Siddharth Maheshwari,Data Engineering,"Data Engineering, Data Analysis",DATA ENGINEER CONSULTANT,"Have 7 years of experience working as a Data Engineer, experience working with data pipelines in Azure, On-premises, and Amazon Web Services (AWS) 
+Experience working with languages such as SQL, Python, PySpark, JavaScript 
+Experience developing data pipelines using Azure Data Factory (ADF), Databricks, PySpark, SQL
+Have good knowledge of Big Data technologies in JAVA such as Apache Hadoop, Apache Spark, Apache Flink.
+Experience maintaining data in Delta Lake, Synapse, Snowflake for Analytical and BI purposes
+Experience working with Power BI and Tableau for creation of reports, dashboards, and visualizations
+Experience working with Kafka for production and consumption of streaming data Experience writing complex SQL queries, Spark SQL to analyze the data and for ADHOC requests 
+Hands on experience working with Waterfall and Agile Methodologies 
+Ability to prioritize stories and deliverables of the application according project timelines 
+Able to work under self-direction with minimal supervision and guidance, prioritizing own work and coordinating with other team members and business users 
+Capable of quickly learning new technologies and adapting to a new environment 
+","BIG DATA ANALYTICS - GEORGIAN COLLEGE
+PROJECT MANAGEMENT - GEORGIAN COLLEGE",http://NA.com,,,,"T-MOBILE - Telecommunications
+Designed and developed ELT pipelines using ADF, Databricks, and Snowflake.
+Conducted data migration from Teradata to Snowflake using Python in Databricks.
+Automated the loading of Microsoft SharePoint data into target tables in Snowflake using Python in Databricks.
+Utilized various features in Snowflake such as streams and transient tables to meet project requirements.
+Optimized existing ETL workflows to reduce computation costs and enhance efficiency and concurrency.
+Conducted testing of implementations and performed code reviews for new features.
+","BALLYS INTERACTIVE - Gamming
+Conducted exploratory data analysis and working with business users to structure the data to meet their needs
+Used mparticle to log the different events like betting, login performed by customer to track customer behavior.
+Utilized Python, PySpark and Spark SQL to develop code in Azure Databricks and to extract, transform and load the data residing in Azure data lake to the visualization layer
+Executed and tested (CI/CD) developed code using Azure DevOps
+Worked on improving the performance and optimization of the existing algorithms on PySpark and Python
+Developed ETL Processes in ADF to migrate data from external sources like ORC/Parquet/Text Files into delta lake
+Worked on Ingesting data by going through cleansing and transformations and leveraging Azure functions, ADF, Logic Apps
+Used Spark for interactive queries, processing of streaming data huge volume of data
+Used Kafka Streams, Apache Flink stream to Configure Spark Streaming to get information and then store it in Azure
+",,,,,,,0,0%,-25%,0%,0%,25%,0%,0%,0%,50%,25%,50%,-25%,75%,0%,0%,0%,0%,100%,75%,0%,25%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,100%,50%,-25%,0%,0%,-25%,0%,0%,0%,0%,0%,0%,-25%,0%,-25%,0%,0%,50%,0%,0%,25%,0%,25%,0%,25%,0%,0%,0%,-25%,0%,0%,-25%,0%,0%,0%,75%,0%,50%,75%,0%,0%,0%,0%,75%,,0%,50%,50%,0%,0%,0%,0%,75%,0%,0%,0%,-25%,25%,0%,-25%,0%,0%,75%,-25%,0%,0%,0%,100%,0%,0%,0%,0%,50%,-25%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Ahsaan Rizvi,Ned Booker,Data Science,"Data Science, Data Analysis",Senior Data Scientist,"With over 12 experience in Data Science in both public and private sector, I have implemented data solutions involving over 900 millions records daily and over 15 million devices. ","Masters, Engineering Management",http://www.linkedin.com\in\ahsaanrizvi,,,,Anomaly Detection,Data Volume Forecasting,Device Intelligence Analytics ,Data Profiling,,,,,0,0%,50%,0%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,25%,0%,0%,0%,0%,0%,0%,0%,0%,-25%,-25%,-25%,-25%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,50%,0%,0%,0%,0%,0%,0%,0%,25%,-25%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,-25%,0%,0%,0%,0%,-25%,50%,0%,0%,25%,-25%,0%,0%,50%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,-25%,75%,0%,0%,-25%,0%,25%,0%,0%,50%,75%,0%,0%,50%,0%,-25%,0%,-25%,0%,0%,0%,75%,0%,-25%,0%,0%,0%,0%,0%,,0%,-25%,0%,25%,0%,0%,50%,-25%,25%,-25%,50%,0%,-25%,-25%
+Qi Jiang (Jessica),Zilai Feng,Data Analytics,Data Analysis,Data Analytics Consultant III,"MBA & MSDA graduate with 10+ years of experience in analytics and financial & accounting in different industries. Skilled in business intelligence, statistics, and data mining. Trained in using SQL, Python, R, Power BI, Tableau, MS Azure and MS Excel. Outside of work, l like traveling, skiing, and photography. I have traveled widely and gained a more global perspective on those travels.",Master of Data Analsysis ,https://www.linkedin.com/in/jessica-qi-jiang/,https://github.com/jessicaqijiang?tab=following,,,"Maintaining and improving over 6 BI dashboards and reports, offering critical business insights like data quality, data performance, and data insights to support strategic decision-making processes. The emphasis of these reports was to quickly understand the quality and integrity of telemetry coming from raw systems, to ensure decisions were being made with accurate data.","Leading cross-team discussions, generating reports within Splunk, and coordinating with the Denodo team to establish a pipeline for connecting Splunk data to Power BI. The primary focus of this initiative is to automate the monitoring of Splunk data within Power BI.",,,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Sharmistha Ganguly Ghosh,Zilai Feng,Data Analytics,"Data Analysis, Data Science",Senior Data Analytics Consultant,Results-driven and detail-oriented Senior Data Analytics Consultant with overall 10 years of experience out of which 5+ years in leveraging large datasets to deliver actionable insights and solutions that drive business improvement and efficiency. Skilled in managing complex projects and leading cross-functional teams to achieve data-driven goals. ,Master of Science in Business Analytics,https://www.linkedin.com/in/sharmistha-ganguly-ghosh-984a6a22?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app,,,,Degrees of Change Edudation Project,T-Mobile (IoT),T-Mobile(NPPI),T-Mobile (Commercial Messaging),,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Greg,Brian Carter,Data Science,,,,,,,,,,,,,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Chuck Ho,Zilai Feng,Data Analytics,"Data Analysis, Data Science, Machine Learning",Senior Analytics Consultant II,"Experienced Business Intelligence Analyst/Data Scientist with a 14+ year track record in setting up infrastructure for business intelligence and drawing insights from data to inform strategic decisions for clients by having a versatile data analytical tool kit, great comprehension on business requirement, and refined ability to clearly communicate complex technical concepts and insights to diverse audiences, ranging from non-technical teams to senior management.
+
+Proficient in leveraging SQL, Python, Database & Data Warehouses, Power BI & machine learning to gather, store, transform and analyze the data to address diverse business questions.
+","Master of Data Science
+Master of Management",https://www.linkedin.com/in/chuck-ho,,,"This task outlines the professional profile of Chuck Ho, a Senior Analytics Consultant II, managed by Zilai Feng, emphasizing his 14+ years of experience in business intelligence and data science. Chuck Ho is skilled in SQL, Python, Power BI, and Excel, and has worked on projects involving NLP for customer pain points, ARIMA for revenue forecasting, and competitive landscape analysis for app development.",Topic Modeling on customer pain points and emerging trend detection for a customer call center levering NLP ,Revene and subscription forecast with time-series model (ARIMA),Competiting Landscape Analysis for a client's App wth Network Data for product roadmap development and marketing strategy,,,,,,0,75%,0%,0%,0%,0%,50%,-25%,0%,0%,0%,0%,0%,-25%,0%,0%,-25%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,50%,-25%,0%,0%,25%,0%,0%,-25%,0%,0%,100%,0%,0%,0%,0%,75%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,100%,-25%,0%,0%,0%,0%,-25%,0%,75%,75%,0%,0%,0%,0%,0%,0%,0%,75%,0%,"Firebase - 80
+Mixpanel - 60
+",0%,50%,100%,0%,0%,-25%,0%,75%,-25%,-25%,0%,0%,75%,-25%,0%,-25%,75%,0%,0%,75%,-25%,-25%,100%,0%,-25%,-25%,0%,50%,0%,0%,75%,0%,-25%,0%,0%,,-25%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Becky,Brian Carter,Data Science,,,,,,,,,,,,,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Sailanki,Brian Carter,Data Science,,,,,,,,,,,,,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,6,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Aline Santoso,Zilai Feng,Data Analytics,Data Analysis,Senior Data Analytics Consultant l,A senior data analytics consultant with 5+ years in analyzing quantitative and qualitative data for business and product development,"University of British Columbia, MASc",https://www.linkedin.com/in/aline-teresa/,,,,Modernize analytics pipeline ,Report and dashboard development ,,,,,,,0,-25%,0%,0%,0%,0%,-25%,-25%,0%,0%,0%,0%,0%,-25%,0%,0%,-25%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,-25%,-25%,0%,0%,-25%,0%,0%,-25%,0%,0%,100%,0%,0%,0%,0%,50%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,75%,-25%,0%,0%,0%,0%,-25%,0%,50%,-25%,0%,0%,0%,0%,0%,0%,0%,-25%,0%,,0%,50%,100%,0%,0%,25%,0%,50%,-25%,-25%,0%,0%,50%,-25%,0%,-25%,75%,0%,0%,25%,-25%,25%,50%,0%,-25%,-25%,0%,75%,0%,0%,-25%,0%,-25%,0%,0%,,-25%,0%,0%,0%,-25%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Lovekumar Patel,Brian Carter,Data Analytics,"Data Analysis, Machine Learning, Data Science, DevOps",Senior R Developer II,"Lovekumar is a senior consultant and developer at ProCogia, specializing in building end-to-end data science products. With an MS in Engineering Management focused on data science from Northeastern University, he brings over five years of experience in the consulting industry.
+
+He excels in developing enterprise-ready data-intensive web applications, creating web APIs, and crafting decision-making data reports. His expertise also includes statistical modeling, developing R packages, and harnessing R's capabilities across various domains. He holds an AWS Certified Solution Architect credential.
+
+At ProCogia, he works with various clients to develop and implement data-driven solutions, showcasing his proficiency in transforming concepts into production-ready solutions. His role includes leading teams in agile environments and handling client-facing responsibilities from requirement gathering to deployment.","Master of Science in Engineering Management
+Minor: Data Science",https://linkedin.com/in/lovekumar-patel,https://github.com/love-procogia,,"Lovekumar Patel is a Senior R Developer II at ProCogia, specializing in building data science products and enterprise-ready web applications. He has over five years of consulting experience, holds an MS in Engineering Management with a focus on data science, and is an AWS Certified Solution Architect. Key projects include developing a Portfolio Construction Tool, designing Web APIs, and integrating a Dynamic Reporting System, all of which significantly improved productivity and efficiency.","Portfolio Construction and Management Tool
+
+Engineered a web-based Portfolio Construction, Analysis, and Management Tool using R and R Shiny, aimed at enhancing the productivity of portfolio analysts. The tool streamlined portfolio analysis processes and improved decision-making by providing advanced data visualization and analysis capabilities. The implementation resulted in a notable increase in productivity by 20%, enabling analysts to make more informed investment decisions efficiently.","Design and Development of Web APIs
+
+The API development project, leveraging promises for asynchronous programming and powered by Apache Spark for optimized data processing, delivers tangible business impact through enhanced capabilities. By implementing a robust logger system and integrating Memoization for efficient caching, the project achieved a remarkable 50% reduction in API response times, leading to improved user satisfaction and increased customer engagement. Additionally, the seamless integration across platforms using Plumber facilitated streamlined workflows, resulting in cost savings of $100,000 annually.
+","Dynamic Reporting System Integration
+
+Designed and integrated a dynamic reporting system using Quarto and AG-Grid, resulting in a 40% reduction in report generation time and enhanced data visualization for actionable decision-making. The dynamic reporting system improved data presentation and accessibility, enabling faster insights and informed decision-making. The implementation significantly optimized report generation processes, saving time and improving data visualization capabilities for actionable insights.
+",,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Jose Sergio Hleap,Brian Carter,Data Analytics,"Data Science, Data Analysis, Machine Learning, Data Engineering, DevOps",Senior Bioinformatics Consultant II,"Jose Sergio Hleap, known professionally as Sergio, is a seasoned Senior Bioinformatics Consultant II at Procogia, primarily focusing on transformative projects for Genentech. Sergio embarked on his academic path with an undergraduate degree in molecular biology, achieving recognition as a top-performing student with a scholarship. He then progressed to a Master’s degree in biology, where his thesis was notably distinguished for its quality. For his PhD, he was offered funding by his professor but chose to accept a more prestigious government grant for academic excellence instead.
+
+With 14 published academic papers and participation in over 20 conference panels, Sergio has established himself as a respected voice in the bioinformatics community. He has garnered accolades such as the Best Talk Award at the Black Forest Summer School in 2013 and has successfully secured over $20,000 in research grants during his graduate studies.
+
+In his current role, Sergio spearheads the development of a Python package and conducts data analysis for optical pooled screen projects at Genentech, including studies on estrogen receptor-mediated cancers and the evaluation of software packages in cell painting and perturbview. He also leads the development of Procodia, a live coding interview app, and Eversus, a no-code platform for omics data analysis, enhancing these projects with his expertise in cloud technologies like AWS and GCP.
+
+Sergio’s professional philosophy is rooted in interdisciplinary collaboration and a commitment to applying precise tools for specific tasks, enhancing data science in healthcare, biology, and business sectors. He aims to push the boundaries of bioinformatics, focusing on OPS analysis, no-code platforms, and the ethical use of AI in data analysis and healthcare.
+
+Beyond his professional endeavors, Sergio enjoys salsa dancing, cooking, scuba diving, hiking with his wife and dogs, traveling, and exploring diverse cuisines.","* Bachelors (Honors) in Biology, Universidad del Valle
+* Master in Science Biology, Universidad del Valle
+* PhD in Biochemistry and Molecular Biology, Dalhousie University",https://www.linkedin.com/in/jshleap/,https://github.com/jshleap,,"Jose Sergio Hleap is a Senior Bioinformatics Consultant II at Procogia, focusing on projects for Genentech, including developing a Python package for optical pooled screen projects and leading platforms like Procodia and Eversus. He has a strong academic background with a PhD in Biochemistry and Molecular Biology, 14 published papers, and numerous accolades, emphasizing his expertise in data science, machine learning, and cloud technologies.",Mode of action of a proprietary ER+ breast cancer drug through optical pooled screens,"Development of the analytical package ""SCALable Library for Optical Pooled Screens - SCALLOPS""",Procodia: Live coding interviewing platform,Eversus: No-code platform for analysis of Omics data,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Jaspreet Oberoi,Lou Bajuk,Data Science,"Generative AI, Data Analysis, Data Science, Machine Learning","Director, Data and AI Solutions",,,https://www.linkedin.com/in/oberoijas/,,,"This task involves Jaspreet Oberoi, who is the Director of Data and AI Solutions. For more details, refer to their [LinkedIn profile](https://www.linkedin.com/in/oberoijas/).",,,,,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,13,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Shuyu,Brian Carter,Data Science,,,,,,,,,,,,,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,6,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Shreya,Brian Carter,Data Science,,,,,,,,,,,,,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,6,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Videesh,Siddharth Maheshwari,Data Science,,,,,,,,,,,,,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,6,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Siva,Siddharth Maheshwari,Data Science,,,,,,,,,,,,,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,6,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Sahib,Zilai Feng,Data Analytics,,,,,,,,,,,,,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,6,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Nancy,Ned Booker,Machine Learning,,,,,,,,,,,,,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,6,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+JP,Zilai Feng,Data Analytics,,,,,,,,,,,,,,,,,0,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,6,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
