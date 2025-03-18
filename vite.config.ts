@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'docs', // Change the output folder to docs
-  }
+  },
+  base: '/procogia/'
 })
