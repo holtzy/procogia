@@ -1,15 +1,15 @@
 export type Variable =
-    | 'ML Ops'
-    | 'Data Pipelines'
-    | 'Database'
-    | 'Data Viz'
-    | 'Storytelling'
-    | 'Business Insights'
-    | 'Reporting'
-    | 'Experimentation'
-    | 'Stats'
-    | 'ML Modeling'
-    | 'Deployment';
+    "Cloud Computing & DevOps" |
+    "Data Engineering & ETL" |
+    "Programming Languages" |
+    "Data Science & Machine Learning" |
+    "Databases & Storage" |
+    "Data Visualization & BI" |
+    "Big Data & Streaming" |
+    "DevOps & CI/CD" |
+    "R Ecosystem" |
+    "Web & Frontend" |
+    "Other"
 
 export type DataItem<T extends string> = {
     [key in T]: number;
@@ -25,17 +25,17 @@ export type AxisConfig = {
 };
 
 export const AXIS_CONFIG: AxisConfig[] = [
-    { name: "ML Ops", max: 5 },
-    { name: "Data Pipelines", max: 5 },
-    { name: "Database", max: 5 },
-    { name: "Data Viz", max: 5 },
-    { name: "Storytelling", max: 5 },
-    { name: "Business Insights", max: 5 },
-    { name: "Reporting", max: 5 },
-    { name: "Experimentation", max: 5 },
-    { name: "Stats", max: 5 },
-    { name: "ML Modeling", max: 5 },
-    { name: "Deployment", max: 5 },
+    { name: "Cloud Computing & DevOps", max: 100 },
+    { name: "Data Engineering & ETL", max: 100 },
+    { name: "Programming Languages", max: 100 },
+    { name: "Data Science & Machine Learning", max: 100 },
+    { name: "Databases & Storage", max: 100 },
+    { name: "Data Visualization & BI", max: 100 },
+    { name: "Big Data & Streaming", max: 100 },
+    { name: "DevOps & CI/CD", max: 100 },
+    { name: "R Ecosystem", max: 100 },
+    { name: "Web & Frontend", max: 100 },
+    { name: "Other", max: 100 },
 ]
 
 export const COLORS = ["green", "#e0ac2b", "#6689c6", "#e85252", "#9a6fb0"];
