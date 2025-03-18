@@ -1,8 +1,25 @@
 import "./App.css";
-import { data } from "./data/data";
+import { dataBrianc } from "./data/data";
 import { Radar } from "./dataviz/radar-chart/RadarChart";
 
 function App() {
+  const params = new URLSearchParams(window.location.search);
+  const name = params.get("name");
+
+  if (!name) {
+    return (
+      <>
+        <a href="http://localhost:5173/procogia/?name=brianc">brianc</a>
+      </>
+    );
+  }
+
+  const data = name === "brianc" ? dataBrianc : undefined;
+
+  if (!data) {
+    return <p>Name not known</p>;
+  }
+
   return (
     <div>
       <Radar

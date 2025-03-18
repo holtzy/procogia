@@ -61,7 +61,7 @@ export const Radar = ({ width, height, data, axisConfig }: RadarProps) => {
           axisConfig={axisConfig}
         />
         <path
-          d={linePath}
+          d={linePath ?? undefined}
           stroke={"#cb1dd1"}
           strokeWidth={3}
           fill={"#cb1dd1"}

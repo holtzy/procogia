@@ -54,7 +54,12 @@ export const RadarGrid = ({
 
     return (
       <g key={i}>
-        <path d={path} stroke={GRID_COLOR} strokeWidth={0.5} rx={1} />
+        <path
+          d={path ?? undefined}
+          stroke={GRID_COLOR}
+          strokeWidth={0.5}
+          rx={1}
+        />
         <text
           x={labelPosition.x}
           y={labelPosition.y}
