@@ -1,4 +1,5 @@
 import "./App.css";
+import { AllEmployeeSection } from "./sections/AllEmployeeSection";
 import { DataScientistTypeSection } from "./sections/DataScientistTypeSection";
 import { IndividualSection } from "./sections/IndividualSection";
 
@@ -11,7 +12,12 @@ function App() {
     return <DataScientistTypeSection />;
   }
 
-  // OPTION 2: if there is a name, make a radar chart for this specific individual
+  // OPTION 2: return a radar chart with a select button to select the employee name
+  if (selectedName === "all") {
+    return <AllEmployeeSection />;
+  }
+
+  // OPTION 3: if there is a specific name, make a radar chart for this specific individual
   return <IndividualSection name={selectedName} />;
 }
 

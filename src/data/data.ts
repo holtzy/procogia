@@ -73,5 +73,19 @@ export const employeesData: Data = [
     'ML Modeling': 2,
     Deployment: 2.8,
     name: 'brianc',
+  },
+  {
+    'ML Ops': 3.9,
+    'Data Pipelines': 1,
+    Database: 1,
+    'Data Viz': 2,
+    Storytelling: 4.5,
+    'Business Insights': 1.5,
+    Reporting: 2.2,
+    Experimentation: 1.5,
+    Stats: 1.5,
+    'ML Modeling': 4,
+    Deployment: 2.8,
+    name: 'sophia',
   }
 ]
