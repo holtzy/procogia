@@ -14,7 +14,24 @@ export const IndividualSection = ({ name }: IndividualSectionProps) => {
   );
 
   if (!selectedData) {
-    return <p>Name not known</p>;
+    return (
+      <>
+        <p>
+          Name not known Please click on a name:
+          <br />
+        </p>
+        {employeesData.map((d) => {
+          return (
+            <a
+              href={"/?name=" + encodeURIComponent(d.name)}
+              className="mr-4 hover:underline"
+            >
+              {d.name}
+            </a>
+          );
+        })}
+      </>
+    );
   }
 
   return (
