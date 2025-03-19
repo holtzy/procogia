@@ -2,6 +2,7 @@ import { useState } from "react";
 import { dataScientistTypeData } from "../data/data";
 import { AXIS_CONFIG, COLORS } from "../utils";
 import { Radar } from "../dataviz/radar-chart/Radar";
+import { Button } from "@/components/ui/button";
 
 export const DataScientistTypeSection = () => {
   const allGroups = dataScientistTypeData.map((d) => d.name);
@@ -17,13 +18,18 @@ export const DataScientistTypeSection = () => {
 
   return (
     <div>
-      <div>
+      <div className="flex gap-2 mx-auto">
         {allGroups.map((group) => {
-          //   const isSelected = group === selectedGroup;
+          const isSelected = group === selectedGroup;
           return (
-            <button key={group} onClick={() => setSelectedGroup(group)}>
+            <Button
+              size={"sm"}
+              variant={isSelected ? "default" : "outline"}
+              key={group}
+              onClick={() => setSelectedGroup(group)}
+            >
               {group}
-            </button>
+            </Button>
           );
         })}
       </div>
