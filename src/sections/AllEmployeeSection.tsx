@@ -11,9 +11,7 @@ import {
 } from "@/components/ui/select";
 
 export const AllEmployeeSection = () => {
-  console.log("employeesData", employeesData);
   const allGroups = employeesData.map((d) => d.name);
-  console.log("allGroups", allGroups);
 
   const [selectedGroup, setSelectedGroup] = useState(allGroups[0]);
 

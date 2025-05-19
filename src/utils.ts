@@ -1,3 +1,5 @@
+import { scaleOrdinal } from "d3";
+
 export type Variable =
     "Data Modeling" |
     "ETL/ELT" |
@@ -32,33 +34,52 @@ export type Data = DataItem<Variable>[];
 export type AxisConfig = {
     name: Variable;
     max: number;
+    category: string;
 };
 
 export const AXIS_CONFIG: AxisConfig[] = [
-    { name: "Data Modeling", max: 5 },
-    { name: "ETL/ELT", max: 5 },
-    { name: "Cloud Data", max: 5 },
-    { name: "Big Data", max: 5 },
-    { name: "Orchestration", max: 5 },
-    { name: "Machine Learning", max: 5 },
-    { name: "MLOps", max: 5 },
-    { name: "Deep Learning", max: 5 },
-    { name: "Statistics", max: 5 },
-    { name: "Generative AI", max: 5 },
-    { name: "Bioinformatics", max: 5 },
-    { name: "EDA", max: 5 },
-    { name: "SQL", max: 5 },
-    { name: "BI Tools", max: 5 },
-    { name: "Metadata", max: 5 },
-    { name: "Governance", max: 5 },
-    { name: "Research", max: 5 },
-    { name: "Data Science Tools", max: 5 },
-    { name: "Clinical Data", max: 5 },
-    { name: "SAS", max: 5 },
+    { name: "Bioinformatics", max: 5, category: "Domain Expertise" },
+    { name: "Clinical Data", max: 5, category: "Domain Expertise" },
+    { name: "Research", max: 5, category: "Domain Expertise" },
+
+    { name: "EDA", max: 5, category: "Data Analysis" },
+    { name: "BI Tools", max: 5, category: "Data Analysis" },
+    { name: "Data Science Tools", max: 5, category: "Data Analysis" },
+    { name: "SAS", max: 5, category: "Data Analysis" },
+
+    { name: "Data Modeling", max: 5, category: "Data Engineering" },
+    { name: "ETL/ELT", max: 5, category: "Data Engineering" },
+    { name: "Cloud Data", max: 5, category: "Data Engineering" },
+    { name: "Big Data", max: 5, category: "Data Engineering" },
+    { name: "Orchestration", max: 5, category: "Data Engineering" },
+    { name: "SQL", max: 5, category: "Data Engineering" },
+
+    { name: "Machine Learning", max: 5, category: "Machine Learning" },
+    { name: "MLOps", max: 5, category: "Machine Learning" },
+    { name: "Deep Learning", max: 5, category: "Machine Learning" },
+    { name: "Generative AI", max: 5, category: "Machine Learning" },
+
+    { name: "Metadata", max: 5, category: "Data Governance" },
+    { name: "Governance", max: 5, category: "Data Governance" },
 ];
 
 
+const categories = [
+    "Data Engineering",
+    "Machine Learning",
+    "Statistics",
+    "Domain Expertise",
+    "Data Analysis",
+    "Data Governance",
+];
+
 export const COLORS = ["green", "#e0ac2b", "#6689c6", "#e85252", "#9a6fb0"];
+
+export const colorSCale = scaleOrdinal<string, string>()
+    .domain(categories)
+    .range(COLORS);
+
+
 
 export const skillCategories = [
     {

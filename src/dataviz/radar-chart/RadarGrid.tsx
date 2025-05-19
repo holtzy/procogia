@@ -1,4 +1,4 @@
-import { AxisConfig } from "../../utils";
+import { AxisConfig, colorSCale } from "../../utils";
 import { polarToCartesian } from "./utils";
 import * as d3 from "d3";
 
@@ -56,7 +56,7 @@ export const RadarGrid = ({
           x={labelPosition.x}
           y={labelPosition.y}
           fontSize={12}
-          fill={GRID_COLOR}
+          fill={colorSCale(axis.category)}
           textAnchor={labelPosition.x > 0 ? "start" : "end"}
           dominantBaseline="middle"
         >

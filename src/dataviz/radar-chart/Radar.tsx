@@ -25,7 +25,6 @@ export const Radar = ({
   axisConfig,
   color,
 }: RadarProps) => {
-  console.log("data", data);
   const outerRadius = Math.min(width, height) / 2 - MARGIN;
 
   // The x scale provides an angle for each variable of the dataset
