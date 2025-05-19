@@ -38,29 +38,29 @@ export type AxisConfig = {
 };
 
 export const AXIS_CONFIG: AxisConfig[] = [
-    { name: "Bioinformatics", max: 5, category: "Domain Expertise" },
-    { name: "Clinical Data", max: 5, category: "Domain Expertise" },
-    { name: "Research", max: 5, category: "Domain Expertise" },
-
-    { name: "EDA", max: 5, category: "Data Analysis" },
-    { name: "BI Tools", max: 5, category: "Data Analysis" },
-    { name: "Data Science Tools", max: 5, category: "Data Analysis" },
-    { name: "SAS", max: 5, category: "Data Analysis" },
-
     { name: "Data Modeling", max: 5, category: "Data Engineering" },
     { name: "ETL/ELT", max: 5, category: "Data Engineering" },
     { name: "Cloud Data", max: 5, category: "Data Engineering" },
     { name: "Big Data", max: 5, category: "Data Engineering" },
     { name: "Orchestration", max: 5, category: "Data Engineering" },
-    { name: "SQL", max: 5, category: "Data Engineering" },
 
-    { name: "Machine Learning", max: 5, category: "Machine Learning" },
-    { name: "MLOps", max: 5, category: "Machine Learning" },
-    { name: "Deep Learning", max: 5, category: "Machine Learning" },
-    { name: "Generative AI", max: 5, category: "Machine Learning" },
+    { name: "Machine Learning", max: 5, category: "Data Science" },
+    { name: "Statistics", max: 5, category: "Data Science" },
+    { name: "Deep Learning", max: 5, category: "Data Science" },
+    { name: "MLOps", max: 5, category: "Data Science" },
+    { name: "Generative AI", max: 5, category: "Data Science" },
 
     { name: "Metadata", max: 5, category: "Data Governance" },
     { name: "Governance", max: 5, category: "Data Governance" },
+    { name: "Bioinformatics", max: 5, category: "Data Governance" },
+    { name: "Clinical Data", max: 5, category: "Data Governance" },
+    { name: "Research", max: 5, category: "Data Governance" },
+
+    { name: "EDA", max: 5, category: "Data Analysis" },
+    { name: "BI Tools", max: 5, category: "Data Analysis" },
+    { name: "Data Science Tools", max: 5, category: "Data Analysis" },
+    { name: "SAS", max: 5, category: "Data Analysis" },
+    { name: "SQL", max: 5, category: "Data Analysis" },
 ];
 
 
@@ -112,6 +112,7 @@ export const skillCategories = [
         fullName: "Workflow Orchestration & Automation – Automating pipelines using tools like Airflow, Prefect, or dbt.",
         description: "Automating data workflows for efficiency and consistency."
     },
+
     {
         category: "Data Science",
         label: "Machine Learning",
@@ -123,6 +124,12 @@ export const skillCategories = [
         label: "MLOps",
         fullName: "MLOps & Model Deployment – Managing lifecycle of ML models including CI/CD, monitoring, and retraining.",
         description: "Deploying and maintaining machine learning models at scale."
+    },
+    {
+        category: "Data Science",
+        label: "SAS",
+        fullName: "SAS Programming & Statistical Modeling – Conducting analytics in clinical trials, pharma, and highly regulated environments.",
+        description: "Performing statistical analysis in regulated industries."
     },
     {
         category: "Data Science",
@@ -196,10 +203,5 @@ export const skillCategories = [
         fullName: "Clinical Data Standards & CDISC – Working with SDTM, ADaM, and related standards for regulatory submission.",
         description: "Managing clinical data for regulatory compliance."
     },
-    {
-        category: "Data Science",
-        label: "SAS",
-        fullName: "SAS Programming & Statistical Modeling – Conducting analytics in clinical trials, pharma, and highly regulated environments.",
-        description: "Performing statistical analysis in regulated industries."
-    }
+
 ];
