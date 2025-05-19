@@ -1,6 +1,5 @@
 import "./App.css";
 import { AllEmployeeSection } from "./sections/AllEmployeeSection";
-import { IndividualSection } from "./sections/IndividualSection";
 
 function App() {
   const params = new URLSearchParams(window.location.search);
@@ -10,9 +9,6 @@ function App() {
   if (selectedName === "all" || !selectedName) {
     return <AllEmployeeSection />;
   }
-
-  // OPTION 3: if there is a specific name, make a radar chart for this specific individual
-  return <IndividualSection name={selectedName} />;
 }
 
 export default App;
