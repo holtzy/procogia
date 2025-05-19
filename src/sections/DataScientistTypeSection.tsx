@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { dataScientistTypeData } from "../data/data";
+import { dataScientistTypeData } from "../datav1/data";
 import { AXIS_CONFIG, COLORS } from "../utils";
 import { Radar } from "../dataviz/radar-chart/Radar";
 import { Button } from "@/components/ui/button";

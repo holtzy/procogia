@@ -1,4 +1,4 @@
-import { employeesData } from "../data/data";
+import { employeesData } from "../datav1/data";
 import { Radar } from "../dataviz/radar-chart/Radar";
 import { AXIS_CONFIG } from "../utils";
 

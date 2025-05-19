@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { employeesData } from "../data/data";
+import { employeesData } from "../datav1/data";
 import { AXIS_CONFIG, COLORS } from "../utils";
 import { Radar } from "../dataviz/radar-chart/Radar";
 import {
