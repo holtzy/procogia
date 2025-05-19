@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { employeesData } from "../datav1/data";
+import { employeesData } from "../datav2/clean_data";
 import { AXIS_CONFIG, COLORS } from "../utils";
 import { Radar } from "../dataviz/radar-chart/Radar";
 import {
@@ -11,7 +11,9 @@ import {
 } from "@/components/ui/select";
 
 export const AllEmployeeSection = () => {
+  console.log("employeesData", employeesData);
   const allGroups = employeesData.map((d) => d.name);
+  console.log("allGroups", allGroups);
 
   const [selectedGroup, setSelectedGroup] = useState(allGroups[0]);
 
