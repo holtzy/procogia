@@ -5,6 +5,7 @@ import { AllGroupSection } from "./sections/AllGroupSection";
 function App() {
   const params = new URLSearchParams(window.location.search);
   const selectedName = params.get("name");
+  console.log("selectedName", selectedName);
 
   // OPTION 1: return a radar chart with a select button to select the employee name
   if (selectedName === "all" || !selectedName) {
