@@ -11,24 +11,24 @@ import {
 } from "@/components/ui/select";
 
 export const AllEmployeeSection = () => {
-  const allGroups = employeesData.map((d) => d.name);
+  const allEmployeeNames = employeesData.map((d) => d.name);
 
-  const [selectedGroup, setSelectedGroup] = useState(allGroups[0]);
+  const [selectedName, setSelectedName] = useState(allEmployeeNames[0]);
 
-  const groupId = employeesData.findIndex((d) => d.name === selectedGroup);
+  const groupId = employeesData.findIndex((d) => d.name === selectedName);
   const groupColor = COLORS[groupId];
 
-  const groupRadarData = employeesData[groupId];
+  const selectedEmployeeData = employeesData[groupId];
 
   return (
     <div className="mx-auto w-full">
-      <Select value={selectedGroup} onValueChange={setSelectedGroup}>
+      <Select value={selectedName} onValueChange={setSelectedName}>
         <SelectTrigger className="w-[180px]">
           <SelectValue placeholder="Theme" />
         </SelectTrigger>
         <SelectContent>
-          {allGroups.map((group) => {
-            //   const isSelected = group === selectedGroup;
+          {allEmployeeNames.map((group) => {
+            //   const isSelected = group === selectedName;
             return (
               <SelectItem key={group} value={group}>
                 {group}
@@ -39,7 +39,7 @@ export const AllEmployeeSection = () => {
       </Select>
 
       <Radar
-        data={groupRadarData}
+        data={selectedEmployeeData}
         width={700}
         height={700}
         axisConfig={AXIS_CONFIG}

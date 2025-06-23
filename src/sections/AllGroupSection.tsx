@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AXIS_CONFIG, COLORS } from "../utils";
+import { AXIS_CONFIG, colorSCale } from "../utils";
 import { Radar } from "../dataviz/radar-chart/Radar";
 import {
   Select,
@@ -17,7 +17,7 @@ export const AllGroupSection = () => {
 
   const groupId = groupsData.findIndex((d) => d.name === selectedGroup);
 
-  const groupColor = COLORS[groupId];
+  const groupColor = colorSCale(selectedGroup);
 
   const groupRadarData = groupsData[groupId];
 

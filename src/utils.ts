@@ -22,6 +22,14 @@ export type Variable =
     "Clinical Data" |
     "SAS";
 
+export const groups = [
+    "Data Science",
+    "Data Enfineering",
+    "Data Governance",
+    "Data Analysis",
+];
+
+type Group = (typeof groups)[number];
 
 export type DataItem<T extends string> = {
     [key in T]: number;
@@ -34,7 +42,7 @@ export type Data = DataItem<Variable>[];
 export type AxisConfig = {
     name: Variable;
     max: number;
-    category: string;
+    category: Group;
 };
 
 export const AXIS_CONFIG: AxisConfig[] = [
@@ -64,24 +72,15 @@ export const AXIS_CONFIG: AxisConfig[] = [
 ];
 
 
-const categories = [
-    "Data Engineering",
-    "Machine Learning",
-    "Statistics",
-    "Domain Expertise",
-    "Data Analysis",
-    "Data Governance",
-];
 
 export const COLORS = ["green", "#e0ac2b", "#6689c6", "#e85252", "#9a6fb0"];
 
 export const colorSCale = scaleOrdinal<string, string>()
-    .domain(categories)
+    .domain(groups)
     .range(COLORS);
 
 
-
-export const skillCategories = [
+export const skillgroups = [
     {
         category: "Data Engineering",
         label: "Data Modeling",
