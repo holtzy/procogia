@@ -24,7 +24,7 @@ export type Variable =
 
 export const groups = [
     "Data Science",
-    "Data Enfineering",
+    "Data Engineering",
     "Data Governance",
     "Data Analysis",
 ];
@@ -73,7 +73,7 @@ export const AXIS_CONFIG: AxisConfig[] = [
 
 
 
-export const COLORS = ["green", "#e0ac2b", "#6689c6", "#e85252", "#9a6fb0"];
+export const COLORS = ["#e0ac2b", "#6689c6", "#e85252", "#9a6fb0"];
 
 export const colorSCale = scaleOrdinal<string, string>()
     .domain(groups)
